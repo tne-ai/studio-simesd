@@ -1,0 +1,19 @@
+nodes:
+  - id: rZwflOPlrKJaLBDet1mRz
+    type: file
+    position:
+      x: 520
+      'y': 369.75
+    data:
+      id: rZwflOPlrKJaLBDet1mRz
+      title: Data
+      fileName: SF2-K85494_ExtendedAMD-Template_10883_0119a4-2s (002).xlsx
+      flowState:
+        backend: git
+        repo: studio-simesd
+    width: 210
+    height: 322
+    selected: true
+    dragging: false
+edges: []
+description: null
