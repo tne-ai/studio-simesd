@@ -1,4 +1,4 @@
-title: ESG_DATA_ENTRY
+title: ESG_DATA_ENTRY.model
 model:
   engine_name: openai-gpt
   model_name: gpt-4o
