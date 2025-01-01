@@ -2,8 +2,8 @@ nodes:
   - id: EDaAFG39RQWDy_vWpv7PH
     type: file
     position:
-      x: 257.2547468558844
-      'y': -269.2989276143705
+      x: 187.15184698022392
+      'y': -294.4640711594794
     data:
       id: EDaAFG39RQWDy_vWpv7PH
       title: Test Data
@@ -15,14 +15,14 @@ nodes:
     height: 250
     selected: false
     positionAbsolute:
-      x: 257.2547468558844
-      'y': -269.2989276143705
+      x: 187.15184698022392
+      'y': -294.4640711594794
     dragging: false
   - id: 3mUM1WjaNSZzIgvl1CoT0
     type: file
     position:
-      x: 966.8155959129813
-      'y': -479.8202363294301
+      x: 1272.3923389607319
+      'y': -474.4277055697639
     data:
       id: 3mUM1WjaNSZzIgvl1CoT0
       title: Boozt
@@ -34,14 +34,14 @@ nodes:
     height: 370
     selected: false
     positionAbsolute:
-      x: 966.8155959129813
-      'y': -479.8202363294301
+      x: 1272.3923389607319
+      'y': -474.4277055697639
     dragging: false
   - id: 5-kwzHoiuWztdNejK8PK_
     type: llm
     position:
-      x: 692.2059976234812
-      'y': 1.0715951218836128
+      x: 931.2748613020156
+      'y': -60.04375348766656
     data:
       id: 5-kwzHoiuWztdNejK8PK_
       title: New Model
@@ -81,13 +81,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 692.2059976234812
-      'y': 1.0715951218836128
+      x: 931.2748613020156
+      'y': -60.04375348766656
   - id: bWisnatX3pnNNir9zypll
     type: python_code
     position:
-      x: 267.0375524462961
-      'y': 65.82342882395926
+      x: 586.9943775198235
+      'y': 10.10061097407528
     data:
       id: bWisnatX3pnNNir9zypll
       title: New Code
@@ -100,13 +100,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 267.0375524462961
-      'y': 65.82342882395926
+      x: 586.9943775198235
+      'y': 10.10061097407528
   - id: b5en4K0hncUOFKoSF6zdR
     type: text
     position:
-      x: 607.7369000439923
-      'y': -439.0287605847257
+      x: 816.2480894177517
+      'y': -555.8669270441599
     data:
       id: b5en4K0hncUOFKoSF6zdR
       title: Boozt Rules
@@ -119,26 +119,58 @@ nodes:
     height: 310
     selected: false
     positionAbsolute:
-      x: 607.7369000439923
-      'y': -439.0287605847257
+      x: 816.2480894177517
+      'y': -555.8669270441599
     dragging: false
   - id: SPf98jmo3x6BvBNgUqckb
     type: debug
     position:
-      x: 695.3606529499924
-      'y': 562.8256445703857
+      x: 1045.875152328295
+      'y': 548.4455625446093
     data:
       id: SPf98jmo3x6BvBNgUqckb
       title: Prompt Debugger
-      outputName: ''
+      outputName: SF2Debug
     width: 212
     height: 190
-    selected: true
+    selected: false
     positionAbsolute:
-      x: 695.3606529499924
-      'y': 562.8256445703857
+      x: 1045.875152328295
+      'y': 548.4455625446093
+    dragging: false
+  - id: 16EZS8EkrcZssX2OTFABP
+    type: code_generation
+    position:
+      x: 173.3169578101764
+      'y': 44.377565763184435
+    data:
+      id: 16EZS8EkrcZssX2OTFABP
+      title: Generate Code
+      prompt: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      apiKey: OPENAI_API_KEY
+      engineName: openai-gpt
+      modelName: gpt-4o
+    width: 214
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 173.3169578101764
+      'y': 44.377565763184435
     dragging: false
 edges:
+  - source: 16EZS8EkrcZssX2OTFABP
+    sourceHandle: r
+    target: bWisnatX3pnNNir9zypll
+    targetHandle: l
+    id: DICPZ8
+  - source: EDaAFG39RQWDy_vWpv7PH
+    sourceHandle: b
+    target: 16EZS8EkrcZssX2OTFABP
+    targetHandle: t
+    id: th353K
   - source: 5-kwzHoiuWztdNejK8PK_
     sourceHandle: b
     target: SPf98jmo3x6BvBNgUqckb
@@ -154,11 +186,6 @@ edges:
     target: 5-kwzHoiuWztdNejK8PK_
     targetHandle: t
     id: D1If2V
-  - source: EDaAFG39RQWDy_vWpv7PH
-    sourceHandle: b
-    target: bWisnatX3pnNNir9zypll
-    targetHandle: t
-    id: _zYPMg
   - source: 3mUM1WjaNSZzIgvl1CoT0
     sourceHandle: b
     target: 5-kwzHoiuWztdNejK8PK_
