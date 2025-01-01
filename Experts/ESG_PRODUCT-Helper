@@ -21,8 +21,8 @@ nodes:
   - id: 3mUM1WjaNSZzIgvl1CoT0
     type: file
     position:
-      x: 1098.0338443981916
-      'y': -537.3405644325361
+      x: 1026.133434269309
+      'y': -549.9231362050906
     data:
       id: 3mUM1WjaNSZzIgvl1CoT0
       title: Boozt
@@ -32,21 +32,21 @@ nodes:
       flowState: *ref_0
     width: 212
     height: 370
-    selected: true
+    selected: false
     positionAbsolute:
-      x: 1098.0338443981916
-      'y': -537.3405644325361
+      x: 1026.133434269309
+      'y': -549.9231362050906
     dragging: false
   - id: 5-kwzHoiuWztdNejK8PK_
     type: llm
     position:
-      x: 931.2748613020156
-      'y': -60.04375348766656
+      x: 875.5520434521316
+      'y': -0.7259151313384553
     data:
       id: 5-kwzHoiuWztdNejK8PK_
       title: Fill Data
       input: ''
-      slashgptManifest: ESG-PROD-Helper
+      slashgptManifest: ESG-PROD-Helper.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
@@ -77,17 +77,17 @@ nodes:
             html: >-
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/ESG_PRODUCT-Helper
     width: 212
-    height: 466
+    height: 490
     selected: false
     dragging: false
     positionAbsolute:
-      x: 931.2748613020156
-      'y': -60.04375348766656
+      x: 875.5520434521316
+      'y': -0.7259151313384553
   - id: bWisnatX3pnNNir9zypll
     type: python_code
     position:
-      x: 586.9943775198235
-      'y': 10.10061097407528
+      x: 524.0815186570512
+      'y': 83.7985313561799
     data:
       id: bWisnatX3pnNNir9zypll
       title: New Code
@@ -100,33 +100,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 586.9943775198235
-      'y': 10.10061097407528
-  - id: b5en4K0hncUOFKoSF6zdR
-    type: text
-    position:
-      x: 771.3103330872001
-      'y': -555.8669270441599
-    data:
-      id: b5en4K0hncUOFKoSF6zdR
-      title: Boozt Rules
-      input: |-
-        USE MARKDOWn
-        STEP BY STEP
-        CHECK MATH
-        from the  Data Supplied fill the fields in the BOOZT template
-    width: 212
-    height: 310
-    selected: false
-    positionAbsolute:
-      x: 771.3103330872001
-      'y': -555.8669270441599
-    dragging: false
+      x: 524.0815186570512
+      'y': 83.7985313561799
   - id: SPf98jmo3x6BvBNgUqckb
     type: debug
     position:
-      x: 1045.875152328295
-      'y': 548.4455625446093
+      x: 936.227026881749
+      'y': 593.3833188751609
     data:
       id: SPf98jmo3x6BvBNgUqckb
       title: Prompt Debugger
@@ -135,14 +115,14 @@ nodes:
     height: 190
     selected: false
     positionAbsolute:
-      x: 1045.875152328295
-      'y': 548.4455625446093
+      x: 936.227026881749
+      'y': 593.3833188751609
     dragging: false
   - id: 16EZS8EkrcZssX2OTFABP
     type: code_generation
     position:
-      x: 173.3169578101764
-      'y': 44.377565763184435
+      x: 205.67214236817358
+      'y': 24.604952977741732
     data:
       id: 16EZS8EkrcZssX2OTFABP
       title: Generate Code
@@ -157,10 +137,55 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 173.3169578101764
-      'y': 44.377565763184435
+      x: 205.67214236817358
+      'y': 24.604952977741732
     dragging: false
+  - id: CHBYIOcD7RFJVx83QiXSU
+    type: file
+    position:
+      x: 631.5326875751266
+      'y': -448.84730273111234
+    data:
+      id: CHBYIOcD7RFJVx83QiXSU
+      title: Boozt rules
+      fileName: boozt_rules.txt
+      flowState:
+        backend: git
+        repo: studio-simesd
+        content:
+          name: ESG_PRODUCT-Helper
+          path: Experts/ESG_PRODUCT-Helper
+          sha: 063b30be49922e33458c197d77909a82d2dbcb26
+          size: 4074
+          url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/ESG_PRODUCT-Helper?ref=main
+          html_url: >-
+            https://github.com/tne-ai/studio-simesd/blob/main/Experts/ESG_PRODUCT-Helper
+          git_url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/063b30be49922e33458c197d77909a82d2dbcb26
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/studio-simesd/main/Experts/ESG_PRODUCT-Helper
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/ESG_PRODUCT-Helper?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/063b30be49922e33458c197d77909a82d2dbcb26
+            html: >-
+              https://github.com/tne-ai/studio-simesd/blob/main/Experts/ESG_PRODUCT-Helper
+    width: 212
+    height: 226
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 631.5326875751266
+      'y': -448.84730273111234
 edges:
+  - source: CHBYIOcD7RFJVx83QiXSU
+    sourceHandle: b
+    target: 5-kwzHoiuWztdNejK8PK_
+    targetHandle: t
+    id: BHOHDc
   - source: 16EZS8EkrcZssX2OTFABP
     sourceHandle: r
     target: bWisnatX3pnNNir9zypll
@@ -181,11 +206,6 @@ edges:
     target: 5-kwzHoiuWztdNejK8PK_
     targetHandle: l
     id: G4My9M
-  - source: b5en4K0hncUOFKoSF6zdR
-    sourceHandle: t
-    target: 5-kwzHoiuWztdNejK8PK_
-    targetHandle: t
-    id: D1If2V
   - source: 3mUM1WjaNSZzIgvl1CoT0
     sourceHandle: b
     target: 5-kwzHoiuWztdNejK8PK_
