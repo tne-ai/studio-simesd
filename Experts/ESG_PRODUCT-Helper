@@ -1,0 +1,41 @@
+nodes:
+  - id: EDaAFG39RQWDy_vWpv7PH
+    type: file
+    position:
+      x: 443.032608
+      'y': 75.82808800000012
+    data:
+      id: EDaAFG39RQWDy_vWpv7PH
+      title: Test Data
+      fileName: SF2-Product Data - Mockup-2.xlsx
+      flowState: &ref_0
+        backend: git
+        repo: studio-simesd
+    width: 210
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 443.032608
+      'y': 75.82808800000012
+    dragging: false
+  - id: 3mUM1WjaNSZzIgvl1CoT0
+    type: file
+    position:
+      x: 736.8482560000002
+      'y': 34.76396000000009
+    data:
+      id: 3mUM1WjaNSZzIgvl1CoT0
+      title: Boozt
+      fileName: >-
+        SF2-boozt_sustainability_textile_footwear__leather_goods_data_import_import_template_SP25_12-11-2024
+        (003)_cleaned.xlsx
+      flowState: *ref_0
+    width: 210
+    height: 370
+    selected: false
+    positionAbsolute:
+      x: 736.8482560000002
+      'y': 34.76396000000009
+    dragging: false
+edges: []
+description: null
