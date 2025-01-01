@@ -21,8 +21,8 @@ nodes:
   - id: 3mUM1WjaNSZzIgvl1CoT0
     type: file
     position:
-      x: 814.6314980503116
-      'y': -248.5892958429523
+      x: 1002.7159979396718
+      'y': -303.90826639864645
     data:
       id: 3mUM1WjaNSZzIgvl1CoT0
       title: Boozt
@@ -34,14 +34,14 @@ nodes:
     height: 370
     selected: false
     positionAbsolute:
-      x: 814.6314980503116
-      'y': -248.5892958429523
+      x: 1002.7159979396718
+      'y': -303.90826639864645
     dragging: false
   - id: 5-kwzHoiuWztdNejK8PK_
     type: llm
     position:
-      x: 800.0651828111625
-      'y': 219.0483458145211
+      x: 774.249663218505
+      'y': 172.94920368477597
     data:
       id: 5-kwzHoiuWztdNejK8PK_
       title: New Model
@@ -78,16 +78,16 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/ESG_PRODUCT-Helper
     width: 210
     height: 466
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
-      x: 800.0651828111625
-      'y': 219.0483458145211
+      x: 774.249663218505
+      'y': 172.94920368477597
   - id: bWisnatX3pnNNir9zypll
     type: python_code
     position:
-      x: 469.91920578575525
-      'y': -168.21972628263106
+      x: 460.69937735980625
+      'y': -273.32577033845
     data:
       id: bWisnatX3pnNNir9zypll
       title: New Code
@@ -100,9 +100,34 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 469.91920578575525
-      'y': -168.21972628263106
+      x: 460.69937735980625
+      'y': -273.32577033845
+  - id: b5en4K0hncUOFKoSF6zdR
+    type: text
+    position:
+      x: 711.8480659213948
+      'y': -309.9704242050913
+    data:
+      id: b5en4K0hncUOFKoSF6zdR
+      title: Boozt Rules
+      input: |-
+        USE MARKDOWn
+        STEP BY STEP
+        CHECK MATH
+        from the  Data Supplied fill the fields in the BOOZT template
+    width: 210
+    height: 310
+    selected: true
+    positionAbsolute:
+      x: 711.8480659213948
+      'y': -309.9704242050913
+    dragging: false
 edges:
+  - source: b5en4K0hncUOFKoSF6zdR
+    sourceHandle: t
+    target: 5-kwzHoiuWztdNejK8PK_
+    targetHandle: t
+    id: D1If2V
   - source: bWisnatX3pnNNir9zypll
     sourceHandle: b
     target: 5-kwzHoiuWztdNejK8PK_
