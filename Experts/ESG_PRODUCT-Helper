@@ -2,8 +2,8 @@ nodes:
   - id: EDaAFG39RQWDy_vWpv7PH
     type: file
     position:
-      x: 328.7394155840169
-      'y': -653.1405183936913
+      x: 257.2547468558844
+      'y': -269.2989276143705
     data:
       id: EDaAFG39RQWDy_vWpv7PH
       title: Test Data
@@ -11,18 +11,18 @@ nodes:
       flowState: &ref_0
         backend: git
         repo: studio-simesd
-    width: 210
+    width: 212
     height: 250
     selected: false
     positionAbsolute:
-      x: 328.7394155840169
-      'y': -653.1405183936913
+      x: 257.2547468558844
+      'y': -269.2989276143705
     dragging: false
   - id: 3mUM1WjaNSZzIgvl1CoT0
     type: file
     position:
-      x: 1002.7159979396718
-      'y': -303.90826639864645
+      x: 966.8155959129813
+      'y': -479.8202363294301
     data:
       id: 3mUM1WjaNSZzIgvl1CoT0
       title: Boozt
@@ -30,18 +30,18 @@ nodes:
         SF2-boozt_sustainability_textile_footwear__leather_goods_data_import_import_template_SP25_12-11-2024
         (003)_cleaned.xlsx
       flowState: *ref_0
-    width: 210
+    width: 212
     height: 370
     selected: false
     positionAbsolute:
-      x: 1002.7159979396718
-      'y': -303.90826639864645
+      x: 966.8155959129813
+      'y': -479.8202363294301
     dragging: false
   - id: 5-kwzHoiuWztdNejK8PK_
     type: llm
     position:
-      x: 774.249663218505
-      'y': 172.94920368477597
+      x: 692.2059976234812
+      'y': 1.0715951218836128
     data:
       id: 5-kwzHoiuWztdNejK8PK_
       title: New Model
@@ -76,18 +76,18 @@ nodes:
               https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/9a1ed16f5e3d39bc8f7ba734856534b10a921fc4
             html: >-
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/ESG_PRODUCT-Helper
-    width: 210
+    width: 212
     height: 466
     selected: false
     dragging: false
     positionAbsolute:
-      x: 774.249663218505
-      'y': 172.94920368477597
+      x: 692.2059976234812
+      'y': 1.0715951218836128
   - id: bWisnatX3pnNNir9zypll
     type: python_code
     position:
-      x: 460.69937735980625
-      'y': -273.32577033845
+      x: 267.0375524462961
+      'y': 65.82342882395926
     data:
       id: bWisnatX3pnNNir9zypll
       title: New Code
@@ -95,18 +95,18 @@ nodes:
       outputType: overwrite
       outputToCanvas: false
       flowState: *ref_1
-    width: 210
+    width: 212
     height: 348
     selected: false
     dragging: false
     positionAbsolute:
-      x: 460.69937735980625
-      'y': -273.32577033845
+      x: 267.0375524462961
+      'y': 65.82342882395926
   - id: b5en4K0hncUOFKoSF6zdR
     type: text
     position:
-      x: 711.8480659213948
-      'y': -309.9704242050913
+      x: 607.7369000439923
+      'y': -439.0287605847257
     data:
       id: b5en4K0hncUOFKoSF6zdR
       title: Boozt Rules
@@ -115,24 +115,45 @@ nodes:
         STEP BY STEP
         CHECK MATH
         from the  Data Supplied fill the fields in the BOOZT template
-    width: 210
+    width: 212
     height: 310
+    selected: false
+    positionAbsolute:
+      x: 607.7369000439923
+      'y': -439.0287605847257
+    dragging: false
+  - id: SPf98jmo3x6BvBNgUqckb
+    type: debug
+    position:
+      x: 695.3606529499924
+      'y': 562.8256445703857
+    data:
+      id: SPf98jmo3x6BvBNgUqckb
+      title: Prompt Debugger
+      outputName: ''
+    width: 212
+    height: 190
     selected: true
     positionAbsolute:
-      x: 711.8480659213948
-      'y': -309.9704242050913
+      x: 695.3606529499924
+      'y': 562.8256445703857
     dragging: false
 edges:
+  - source: 5-kwzHoiuWztdNejK8PK_
+    sourceHandle: b
+    target: SPf98jmo3x6BvBNgUqckb
+    targetHandle: t
+    id: Yn7OYg
+  - source: bWisnatX3pnNNir9zypll
+    sourceHandle: r
+    target: 5-kwzHoiuWztdNejK8PK_
+    targetHandle: l
+    id: G4My9M
   - source: b5en4K0hncUOFKoSF6zdR
     sourceHandle: t
     target: 5-kwzHoiuWztdNejK8PK_
     targetHandle: t
     id: D1If2V
-  - source: bWisnatX3pnNNir9zypll
-    sourceHandle: b
-    target: 5-kwzHoiuWztdNejK8PK_
-    targetHandle: t
-    id: uULgXO
   - source: EDaAFG39RQWDy_vWpv7PH
     sourceHandle: b
     target: bWisnatX3pnNNir9zypll
