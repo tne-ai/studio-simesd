@@ -2,8 +2,8 @@ nodes:
   - id: eFmCxb8l02JoLTD_espAq
     type: file
     position:
-      x: 632.145931143451
-      'y': 305.99268158004156
+      x: 171.52131471556595
+      'y': -291.05385957387205
     data:
       id: eFmCxb8l02JoLTD_espAq
       title: SF-2 test Data
@@ -16,8 +16,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 632.145931143451
-      'y': 305.99268158004156
+      x: 171.52131471556595
+      'y': -291.05385957387205
   - id: OY0cfGccXG7_kHVIjSLqm
     type: code_generation
     position:
@@ -62,8 +62,8 @@ nodes:
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1289.9792373593734
-      'y': 630.8159807207093
+      x: 1376.6472836559092
+      'y': 590.6918852130539
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -102,13 +102,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1289.9792373593734
-      'y': 630.8159807207093
+      x: 1376.6472836559092
+      'y': 590.6918852130539
   - id: '-9LiaTdnE6L7H3ChKvgzh'
     type: file
     position:
-      x: 636.6409801044101
-      'y': -770.6323771064998
+      x: 652.6906183074725
+      'y': -359.7616391081076
     data:
       id: '-9LiaTdnE6L7H3ChKvgzh'
       title: BOOZT template
@@ -142,14 +142,14 @@ nodes:
     height: 370
     selected: false
     positionAbsolute:
-      x: 636.6409801044101
-      'y': -770.6323771064998
+      x: 652.6906183074725
+      'y': -359.7616391081076
     dragging: false
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
-      x: 1056.844708968804
-      'y': 175.06812541955205
+      x: 1079.3142024530912
+      'y': 216.79718474751377
     data:
       id: gK_ROiI4UHrp_vIPGCogg
       title: Boozt Rules
@@ -160,114 +160,35 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1056.844708968804
-      'y': 175.06812541955205
-  - id: yXpH93LNqGR3_yQmQbAen
-    type: code_generation
-    position:
-      x: 702.1214486510632
-      'y': -350.4875206642928
-    data:
-      id: yXpH93LNqGR3_yQmQbAen
-      title: Generate Code
-      prompt: ''
-      outputType: overwrite
-      outputToCanvas: false
-      useUserQuery: false
-      apiKey: OPENAI_API_KEY
-      engineName: openai-gpt
-      modelName: gpt-4o
-    width: 212
-    height: 466
-    selected: false
-    positionAbsolute:
-      x: 702.1214486510632
-      'y': -350.4875206642928
-    dragging: false
-  - id: _48hGUq83oDe58EpIKCvs
-    type: python_code
-    position:
-      x: 1010.4244744892985
-      'y': -295.3723733842826
-    data:
-      id: _48hGUq83oDe58EpIKCvs
-      title: New Code
-      module: chat_markdown.py
-      outputType: overwrite
-      outputToCanvas: false
-      flowState: *ref_1
-    width: 210
-    height: 348
-    selected: false
-    positionAbsolute:
-      x: 1010.4244744892985
-      'y': -295.3723733842826
-    dragging: false
-  - id: COGFAgUQXmPjJKCDTVEpG
-    type: llm
-    position:
-      x: 1306.8939679735856
-      'y': -342.2617221497945
-    data:
-      id: COGFAgUQXmPjJKCDTVEpG
-      title: New Model
-      input: ''
-      slashgptManifest: summariser.model
-      toolJson: ''
-      toolCode: ''
-      outputType: overwrite
-      outputToCanvas: false
-      useUserQuery: false
-      flowState: *ref_1
-    width: 210
-    height: 466
-    selected: false
-    positionAbsolute:
-      x: 1306.8939679735856
-      'y': -342.2617221497945
-    dragging: false
+      x: 1079.3142024530912
+      'y': 216.79718474751377
   - id: i9E9y83sypcNs-yy6iNxD
     type: debug
     position:
-      x: 1348.3288294022232
-      'y': 1171.6109423920254
+      x: 1484.7507541282519
+      'y': 1153.956340368657
     data:
       id: i9E9y83sypcNs-yy6iNxD
       title: Prompt Debugger
       outputName: xlsinput.txt
     width: 210
     height: 190
-    selected: true
+    selected: false
     positionAbsolute:
-      x: 1348.3288294022232
-      'y': 1171.6109423920254
+      x: 1484.7507541282519
+      'y': 1153.956340368657
     dragging: false
 edges:
+  - source: '-9LiaTdnE6L7H3ChKvgzh'
+    sourceHandle: b
+    target: OY0cfGccXG7_kHVIjSLqm
+    targetHandle: t
+    id: fULAyh
   - source: Bz-uux-pak74ee24gOVXt
     sourceHandle: b
     target: i9E9y83sypcNs-yy6iNxD
     targetHandle: t
     id: p7zSFx
-  - source: COGFAgUQXmPjJKCDTVEpG
-    sourceHandle: b
-    target: Bz-uux-pak74ee24gOVXt
-    targetHandle: t
-    id: v3CUND
-  - source: _48hGUq83oDe58EpIKCvs
-    sourceHandle: r
-    target: COGFAgUQXmPjJKCDTVEpG
-    targetHandle: l
-    id: bKF13O
-  - source: yXpH93LNqGR3_yQmQbAen
-    sourceHandle: r
-    target: _48hGUq83oDe58EpIKCvs
-    targetHandle: l
-    id: BlfRT3
-  - source: '-9LiaTdnE6L7H3ChKvgzh'
-    sourceHandle: b
-    target: yXpH93LNqGR3_yQmQbAen
-    targetHandle: t
-    id: SMyStd
   - source: gK_ROiI4UHrp_vIPGCogg
     sourceHandle: b
     target: Bz-uux-pak74ee24gOVXt
