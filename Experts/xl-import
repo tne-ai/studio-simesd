@@ -21,8 +21,8 @@ nodes:
   - id: OY0cfGccXG7_kHVIjSLqm
     type: code_generation
     position:
-      x: 650.3611565010891
-      'y': 663.9870799010184
+      x: 673.5314336212278
+      'y': 621.7840751464797
     data:
       id: OY0cfGccXG7_kHVIjSLqm
       title: Generate Code
@@ -31,14 +31,14 @@ nodes:
       outputToCanvas: false
       useUserQuery: true
       apiKey: OPENAI_API_KEY
-      engineName: openai-gpt
-      modelName: gpt-4o
+      engineName: tne
+      modelName: Llama-3.1-70B-Instruct
     width: 212
-    height: 466
-    selected: false
+    height: 490
+    selected: true
     positionAbsolute:
-      x: 650.3611565010891
-      'y': 663.9870799010184
+      x: 673.5314336212278
+      'y': 621.7840751464797
     dragging: false
   - id: AqqVmUEBkVe01QSUW-nrw
     type: python_code
@@ -66,7 +66,7 @@ nodes:
       'y': 616.3479253327451
     data:
       id: Bz-uux-pak74ee24gOVXt
-      title: New Model
+      title: Summaary
       input: ''
       slashgptManifest: summariser.model
       toolJson: ''
@@ -99,7 +99,7 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 466
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
       x: 1391.2629310513707
