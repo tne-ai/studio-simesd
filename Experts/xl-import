@@ -157,7 +157,7 @@ nodes:
       flowState: *ref_1
     width: 210
     height: 226
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
       x: 1677.9657074273111
@@ -165,8 +165,8 @@ nodes:
   - id: yXpH93LNqGR3_yQmQbAen
     type: code_generation
     position:
-      x: 958.789494947599
-      'y': -310.4875206642928
+      x: 788.789494947599
+      'y': -350.4875206642928
     data:
       id: yXpH93LNqGR3_yQmQbAen
       title: Generate Code
@@ -181,14 +181,14 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 958.789494947599
-      'y': -310.4875206642928
+      x: 788.789494947599
+      'y': -350.4875206642928
     dragging: false
   - id: _48hGUq83oDe58EpIKCvs
     type: python_code
     position:
-      x: 1246.6974846061407
-      'y': -248.1624457436701
+      x: 1098.6974846061407
+      'y': -292.1624457436701
     data:
       id: _48hGUq83oDe58EpIKCvs
       title: New Code
@@ -200,15 +200,43 @@ nodes:
     height: 348
     selected: false
     positionAbsolute:
-      x: 1246.6974846061407
-      'y': -248.1624457436701
+      x: 1098.6974846061407
+      'y': -292.1624457436701
+    dragging: false
+  - id: COGFAgUQXmPjJKCDTVEpG
+    type: llm
+    position:
+      x: 1372.6974846061407
+      'y': -310.1624457436701
+    data:
+      id: COGFAgUQXmPjJKCDTVEpG
+      title: New Model
+      input: ''
+      slashgptManifest: summariser.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_1
+    width: 210
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 1372.6974846061407
+      'y': -310.1624457436701
     dragging: false
 edges:
-  - source: _48hGUq83oDe58EpIKCvs
+  - source: COGFAgUQXmPjJKCDTVEpG
     sourceHandle: b
     target: Bz-uux-pak74ee24gOVXt
     targetHandle: t
-    id: Os-SGD
+    id: v3CUND
+  - source: _48hGUq83oDe58EpIKCvs
+    sourceHandle: r
+    target: COGFAgUQXmPjJKCDTVEpG
+    targetHandle: l
+    id: bKF13O
   - source: yXpH93LNqGR3_yQmQbAen
     sourceHandle: r
     target: _48hGUq83oDe58EpIKCvs
