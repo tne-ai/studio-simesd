@@ -1,6 +1,6 @@
 USE MARKDOWn
 STEP BY STEP
 CHECK MATH
-From the  Data Supplied fill the requested fields in the BOOZT template in a new copy
- ID's from the template and the data supplied
-Answer the questiona from the data as far as possible using the template as a guide
+from the  Data Supplied fill the fields in the BOOZT template in a new copy
+Fill in the new copy using the column ID's from the template and the data supplied
+
