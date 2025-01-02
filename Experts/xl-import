@@ -62,8 +62,8 @@ nodes:
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1346.1529710700909
-      'y': 516.8635494789678
+      x: 1286.7693097187607
+      'y': 545.7528982444798
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -102,13 +102,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1346.1529710700909
-      'y': 516.8635494789678
+      x: 1286.7693097187607
+      'y': 545.7528982444798
   - id: '-9LiaTdnE6L7H3ChKvgzh'
     type: file
     position:
-      x: 652.6906183074725
-      'y': -359.7616391081076
+      x: 495.40416391746294
+      'y': -350.1318561862703
     data:
       id: '-9LiaTdnE6L7H3ChKvgzh'
       title: BOOZT template
@@ -142,14 +142,14 @@ nodes:
     height: 370
     selected: false
     positionAbsolute:
-      x: 652.6906183074725
-      'y': -359.7616391081076
+      x: 495.40416391746294
+      'y': -350.1318561862703
     dragging: false
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
-      x: 1084.12909391401
-      'y': 115.68446406822193
+      x: 1082.5241300937037
+      'y': -110.61543459495503
     data:
       id: gK_ROiI4UHrp_vIPGCogg
       title: Boozt Rules
@@ -160,9 +160,30 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1084.12909391401
-      'y': 115.68446406822193
+      x: 1082.5241300937037
+      'y': -110.61543459495503
+  - id: _USZ7H_P8Y2Se489vFciL
+    type: out
+    position:
+      x: 1323.4518901874767
+      'y': 1085.5447575281037
+    data:
+      id: _USZ7H_P8Y2Se489vFciL
+      title: Saved output
+      outputName: xlfiller.md
+    width: 210
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 1323.4518901874767
+      'y': 1085.5447575281037
+    dragging: false
 edges:
+  - source: Bz-uux-pak74ee24gOVXt
+    sourceHandle: b
+    target: _USZ7H_P8Y2Se489vFciL
+    targetHandle: t
+    id: ZJ_O6j
   - source: gK_ROiI4UHrp_vIPGCogg
     sourceHandle: b
     target: OY0cfGccXG7_kHVIjSLqm
