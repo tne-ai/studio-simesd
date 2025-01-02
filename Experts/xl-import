@@ -43,8 +43,8 @@ nodes:
   - id: AqqVmUEBkVe01QSUW-nrw
     type: python_code
     position:
-      x: 995.5946981200036
-      'y': 710.9822216920749
+      x: 1059.3129602003855
+      'y': 662.9866476575016
     data:
       id: AqqVmUEBkVe01QSUW-nrw
       title: New Code
@@ -54,12 +54,62 @@ nodes:
       flowState: *ref_0
     width: 210
     height: 348
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 1059.3129602003855
+      'y': 662.9866476575016
+  - id: Bz-uux-pak74ee24gOVXt
+    type: llm
+    position:
+      x: 1391.2629310513707
+      'y': 616.3479253327451
+    data:
+      id: Bz-uux-pak74ee24gOVXt
+      title: New Model
+      input: ''
+      slashgptManifest: summariser.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState:
+        backend: git
+        repo: studio-simesd
+        content:
+          name: xl-import
+          path: Experts/xl-import
+          sha: 1af7a962241053a1eb7eafee9db48905f6148d7d
+          size: 1651
+          url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
+          html_url: https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
+          git_url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/1af7a962241053a1eb7eafee9db48905f6148d7d
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/studio-simesd/main/Experts/xl-import
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/1af7a962241053a1eb7eafee9db48905f6148d7d
+            html: >-
+              https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
+    width: 210
+    height: 466
     selected: true
     dragging: false
     positionAbsolute:
-      x: 995.5946981200036
-      'y': 710.9822216920749
+      x: 1391.2629310513707
+      'y': 616.3479253327451
 edges:
+  - source: AqqVmUEBkVe01QSUW-nrw
+    sourceHandle: r
+    target: Bz-uux-pak74ee24gOVXt
+    targetHandle: l
+    id: mhd0rU
   - source: OY0cfGccXG7_kHVIjSLqm
     sourceHandle: r
     target: AqqVmUEBkVe01QSUW-nrw
