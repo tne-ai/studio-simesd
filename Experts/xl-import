@@ -99,7 +99,7 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 466
-    selected: false
+    selected: true
     dragging: false
     positionAbsolute:
       x: 1281.954418257842
