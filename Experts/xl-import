@@ -62,8 +62,8 @@ nodes:
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1321.8027451054243
-      'y': 552.2308306134103
+      x: 1283.5593820781487
+      'y': 638.8407998222403
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -102,13 +102,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1321.8027451054243
-      'y': 552.2308306134103
+      x: 1283.5593820781487
+      'y': 638.8407998222403
   - id: '-9LiaTdnE6L7H3ChKvgzh'
     type: file
     position:
-      x: 1520.7915855895
-      'y': 75.82639273438893
+      x: 1139.4827601116635
+      'y': -420.21252182527496
     data:
       id: '-9LiaTdnE6L7H3ChKvgzh'
       title: BOOZT template
@@ -140,16 +140,16 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 370
-    selected: false
+    selected: true
     positionAbsolute:
-      x: 1520.7915855895
-      'y': 75.82639273438893
+      x: 1139.4827601116635
+      'y': -420.21252182527496
     dragging: false
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
-      x: 1197.291837408561
-      'y': 160.86503075149244
+      x: 1635.9657074273111
+      'y': 145.11776362261423
     data:
       id: gK_ROiI4UHrp_vIPGCogg
       title: Boozt Rules
@@ -160,19 +160,46 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1197.291837408561
-      'y': 160.86503075149244
+      x: 1635.9657074273111
+      'y': 145.11776362261423
+  - id: yXpH93LNqGR3_yQmQbAen
+    type: code_generation
+    position:
+      x: 1210.789494947599
+      'y': 31.51247933570719
+    data:
+      id: yXpH93LNqGR3_yQmQbAen
+      title: Generate Code
+      prompt: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      apiKey: OPENAI_API_KEY
+      engineName: openai-gpt
+      modelName: gpt-4o
+    width: 212
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 1210.789494947599
+      'y': 31.51247933570719
+    dragging: false
 edges:
+  - source: yXpH93LNqGR3_yQmQbAen
+    sourceHandle: b
+    target: Bz-uux-pak74ee24gOVXt
+    targetHandle: t
+    id: ggUtX-
+  - source: '-9LiaTdnE6L7H3ChKvgzh'
+    sourceHandle: b
+    target: yXpH93LNqGR3_yQmQbAen
+    targetHandle: t
+    id: SMyStd
   - source: gK_ROiI4UHrp_vIPGCogg
     sourceHandle: b
     target: Bz-uux-pak74ee24gOVXt
     targetHandle: t
     id: 3Q8un2
-  - source: '-9LiaTdnE6L7H3ChKvgzh'
-    sourceHandle: b
-    target: Bz-uux-pak74ee24gOVXt
-    targetHandle: t
-    id: niqXZY
   - source: AqqVmUEBkVe01QSUW-nrw
     sourceHandle: r
     target: Bz-uux-pak74ee24gOVXt
