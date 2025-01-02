@@ -2,8 +2,8 @@ nodes:
   - id: eFmCxb8l02JoLTD_espAq
     type: file
     position:
-      x: 643.5
-      'y': 310
+      x: 632.145931143451
+      'y': 305.99268158004156
     data:
       id: eFmCxb8l02JoLTD_espAq
       title: SF-2 test Data
@@ -16,13 +16,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 643.5
-      'y': 310
+      x: 632.145931143451
+      'y': 305.99268158004156
   - id: OY0cfGccXG7_kHVIjSLqm
     type: code_generation
     position:
-      x: 673.5314336212278
-      'y': 621.7840751464797
+      x: 646.8159774881716
+      'y': 592.3970734001177
     data:
       id: OY0cfGccXG7_kHVIjSLqm
       title: Generate Code
@@ -35,16 +35,16 @@ nodes:
       modelName: Llama-3.1-70B-Instruct
     width: 212
     height: 490
-    selected: true
+    selected: false
     positionAbsolute:
-      x: 673.5314336212278
-      'y': 621.7840751464797
+      x: 646.8159774881716
+      'y': 592.3970734001177
     dragging: false
   - id: AqqVmUEBkVe01QSUW-nrw
     type: python_code
     position:
-      x: 1059.3129602003855
-      'y': 662.9866476575016
+      x: 978.4987053978903
+      'y': 661.6508748508488
     data:
       id: AqqVmUEBkVe01QSUW-nrw
       title: New Code
@@ -57,8 +57,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1059.3129602003855
-      'y': 662.9866476575016
+      x: 978.4987053978903
+      'y': 661.6508748508488
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
@@ -66,7 +66,7 @@ nodes:
       'y': 616.3479253327451
     data:
       id: Bz-uux-pak74ee24gOVXt
-      title: Summaary
+      title: Summary
       input: ''
       slashgptManifest: summariser.model
       toolJson: ''
