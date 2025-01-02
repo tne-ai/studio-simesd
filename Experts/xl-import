@@ -43,8 +43,8 @@ nodes:
   - id: AqqVmUEBkVe01QSUW-nrw
     type: python_code
     position:
-      x: 913.2437530542563
-      'y': 681.3498651306533
+      x: 948.5529571009931
+      'y': 621.9662037793231
     data:
       id: AqqVmUEBkVe01QSUW-nrw
       title: New Code
@@ -57,13 +57,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 913.2437530542563
-      'y': 681.3498651306533
+      x: 948.5529571009931
+      'y': 621.9662037793231
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1376.6472836559092
-      'y': 590.6918852130539
+      x: 1346.1529710700909
+      'y': 516.8635494789678
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -102,8 +102,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1376.6472836559092
-      'y': 590.6918852130539
+      x: 1346.1529710700909
+      'y': 516.8635494789678
   - id: '-9LiaTdnE6L7H3ChKvgzh'
     type: file
     position:
@@ -148,8 +148,8 @@ nodes:
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
-      x: 1079.3142024530912
-      'y': 216.79718474751377
+      x: 1084.12909391401
+      'y': 115.68446406822193
     data:
       id: gK_ROiI4UHrp_vIPGCogg
       title: Boozt Rules
@@ -160,40 +160,19 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1079.3142024530912
-      'y': 216.79718474751377
-  - id: i9E9y83sypcNs-yy6iNxD
-    type: debug
-    position:
-      x: 1484.7507541282519
-      'y': 1153.956340368657
-    data:
-      id: i9E9y83sypcNs-yy6iNxD
-      title: Prompt Debugger
-      outputName: xlsinput.txt
-    width: 210
-    height: 190
-    selected: false
-    positionAbsolute:
-      x: 1484.7507541282519
-      'y': 1153.956340368657
-    dragging: false
+      x: 1084.12909391401
+      'y': 115.68446406822193
 edges:
+  - source: gK_ROiI4UHrp_vIPGCogg
+    sourceHandle: b
+    target: OY0cfGccXG7_kHVIjSLqm
+    targetHandle: t
+    id: Z13LL8
   - source: '-9LiaTdnE6L7H3ChKvgzh'
     sourceHandle: b
     target: OY0cfGccXG7_kHVIjSLqm
     targetHandle: t
     id: fULAyh
-  - source: Bz-uux-pak74ee24gOVXt
-    sourceHandle: b
-    target: i9E9y83sypcNs-yy6iNxD
-    targetHandle: t
-    id: p7zSFx
-  - source: gK_ROiI4UHrp_vIPGCogg
-    sourceHandle: b
-    target: Bz-uux-pak74ee24gOVXt
-    targetHandle: t
-    id: 3Q8un2
   - source: AqqVmUEBkVe01QSUW-nrw
     sourceHandle: r
     target: Bz-uux-pak74ee24gOVXt
