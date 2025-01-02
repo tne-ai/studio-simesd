@@ -43,8 +43,8 @@ nodes:
   - id: AqqVmUEBkVe01QSUW-nrw
     type: python_code
     position:
-      x: 967.8125229446678
-      'y': 631.5959867011605
+      x: 913.2437530542563
+      'y': 681.3498651306533
     data:
       id: AqqVmUEBkVe01QSUW-nrw
       title: New Code
@@ -57,13 +57,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 967.8125229446678
-      'y': 631.5959867011605
+      x: 913.2437530542563
+      'y': 681.3498651306533
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1283.5593820781487
-      'y': 638.8407998222403
+      x: 1289.9792373593734
+      'y': 630.8159807207093
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -102,13 +102,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1283.5593820781487
-      'y': 638.8407998222403
+      x: 1289.9792373593734
+      'y': 630.8159807207093
   - id: '-9LiaTdnE6L7H3ChKvgzh'
     type: file
     position:
-      x: 779.4827601116635
-      'y': -764.212521825275
+      x: 636.6409801044101
+      'y': -770.6323771064998
     data:
       id: '-9LiaTdnE6L7H3ChKvgzh'
       title: BOOZT template
@@ -142,14 +142,14 @@ nodes:
     height: 370
     selected: false
     positionAbsolute:
-      x: 779.4827601116635
-      'y': -764.212521825275
+      x: 636.6409801044101
+      'y': -770.6323771064998
     dragging: false
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
-      x: 1677.9657074273111
-      'y': 191.11776362261423
+      x: 1056.844708968804
+      'y': 175.06812541955205
     data:
       id: gK_ROiI4UHrp_vIPGCogg
       title: Boozt Rules
@@ -160,12 +160,12 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1677.9657074273111
-      'y': 191.11776362261423
+      x: 1056.844708968804
+      'y': 175.06812541955205
   - id: yXpH93LNqGR3_yQmQbAen
     type: code_generation
     position:
-      x: 788.789494947599
+      x: 702.1214486510632
       'y': -350.4875206642928
     data:
       id: yXpH93LNqGR3_yQmQbAen
@@ -181,14 +181,14 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 788.789494947599
+      x: 702.1214486510632
       'y': -350.4875206642928
     dragging: false
   - id: _48hGUq83oDe58EpIKCvs
     type: python_code
     position:
-      x: 1098.6974846061407
-      'y': -292.1624457436701
+      x: 1010.4244744892985
+      'y': -295.3723733842826
     data:
       id: _48hGUq83oDe58EpIKCvs
       title: New Code
@@ -200,14 +200,14 @@ nodes:
     height: 348
     selected: false
     positionAbsolute:
-      x: 1098.6974846061407
-      'y': -292.1624457436701
+      x: 1010.4244744892985
+      'y': -295.3723733842826
     dragging: false
   - id: COGFAgUQXmPjJKCDTVEpG
     type: llm
     position:
-      x: 1372.6974846061407
-      'y': -310.1624457436701
+      x: 1306.8939679735856
+      'y': -342.2617221497945
     data:
       id: COGFAgUQXmPjJKCDTVEpG
       title: New Model
@@ -223,10 +223,31 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 1372.6974846061407
-      'y': -310.1624457436701
+      x: 1306.8939679735856
+      'y': -342.2617221497945
+    dragging: false
+  - id: i9E9y83sypcNs-yy6iNxD
+    type: debug
+    position:
+      x: 1348.3288294022232
+      'y': 1171.6109423920254
+    data:
+      id: i9E9y83sypcNs-yy6iNxD
+      title: Prompt Debugger
+      outputName: xlsinput.txt
+    width: 210
+    height: 190
+    selected: true
+    positionAbsolute:
+      x: 1348.3288294022232
+      'y': 1171.6109423920254
     dragging: false
 edges:
+  - source: Bz-uux-pak74ee24gOVXt
+    sourceHandle: b
+    target: i9E9y83sypcNs-yy6iNxD
+    targetHandle: t
+    id: p7zSFx
   - source: COGFAgUQXmPjJKCDTVEpG
     sourceHandle: b
     target: Bz-uux-pak74ee24gOVXt
