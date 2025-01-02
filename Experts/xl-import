@@ -1,0 +1,73 @@
+nodes:
+  - id: eFmCxb8l02JoLTD_espAq
+    type: file
+    position:
+      x: 643.5
+      'y': 310
+    data:
+      id: eFmCxb8l02JoLTD_espAq
+      title: SF-2 test Data
+      fileName: SF2-Product Data - Mockup-2.xlsx
+      flowState: &ref_0
+        backend: git
+        repo: studio-simesd
+    width: 210
+    height: 250
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 643.5
+      'y': 310
+  - id: OY0cfGccXG7_kHVIjSLqm
+    type: code_generation
+    position:
+      x: 650.3611565010891
+      'y': 663.9870799010184
+    data:
+      id: OY0cfGccXG7_kHVIjSLqm
+      title: Generate Code
+      prompt: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: true
+      apiKey: OPENAI_API_KEY
+      engineName: openai-gpt
+      modelName: gpt-4o
+    width: 212
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 650.3611565010891
+      'y': 663.9870799010184
+    dragging: false
+  - id: AqqVmUEBkVe01QSUW-nrw
+    type: python_code
+    position:
+      x: 995.5946981200036
+      'y': 710.9822216920749
+    data:
+      id: AqqVmUEBkVe01QSUW-nrw
+      title: New Code
+      module: chat_markdown.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_0
+    width: 210
+    height: 348
+    selected: true
+    dragging: false
+    positionAbsolute:
+      x: 995.5946981200036
+      'y': 710.9822216920749
+edges:
+  - source: OY0cfGccXG7_kHVIjSLqm
+    sourceHandle: r
+    target: AqqVmUEBkVe01QSUW-nrw
+    targetHandle: l
+    id: x52mh2
+  - source: eFmCxb8l02JoLTD_espAq
+    sourceHandle: b
+    target: OY0cfGccXG7_kHVIjSLqm
+    targetHandle: t
+    id: il4Q21
+description: null
