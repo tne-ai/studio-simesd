@@ -107,8 +107,8 @@ nodes:
   - id: '-9LiaTdnE6L7H3ChKvgzh'
     type: file
     position:
-      x: 1139.4827601116635
-      'y': -420.21252182527496
+      x: 779.4827601116635
+      'y': -764.212521825275
     data:
       id: '-9LiaTdnE6L7H3ChKvgzh'
       title: BOOZT template
@@ -140,16 +140,16 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 370
-    selected: true
+    selected: false
     positionAbsolute:
-      x: 1139.4827601116635
-      'y': -420.21252182527496
+      x: 779.4827601116635
+      'y': -764.212521825275
     dragging: false
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
-      x: 1635.9657074273111
-      'y': 145.11776362261423
+      x: 1677.9657074273111
+      'y': 191.11776362261423
     data:
       id: gK_ROiI4UHrp_vIPGCogg
       title: Boozt Rules
@@ -157,16 +157,16 @@ nodes:
       flowState: *ref_1
     width: 210
     height: 226
-    selected: false
+    selected: true
     dragging: false
     positionAbsolute:
-      x: 1635.9657074273111
-      'y': 145.11776362261423
+      x: 1677.9657074273111
+      'y': 191.11776362261423
   - id: yXpH93LNqGR3_yQmQbAen
     type: code_generation
     position:
-      x: 1210.789494947599
-      'y': 31.51247933570719
+      x: 958.789494947599
+      'y': -310.4875206642928
     data:
       id: yXpH93LNqGR3_yQmQbAen
       title: Generate Code
@@ -181,15 +181,39 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 1210.789494947599
-      'y': 31.51247933570719
+      x: 958.789494947599
+      'y': -310.4875206642928
+    dragging: false
+  - id: _48hGUq83oDe58EpIKCvs
+    type: python_code
+    position:
+      x: 1246.6974846061407
+      'y': -248.1624457436701
+    data:
+      id: _48hGUq83oDe58EpIKCvs
+      title: New Code
+      module: chat_markdown.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_1
+    width: 210
+    height: 348
+    selected: false
+    positionAbsolute:
+      x: 1246.6974846061407
+      'y': -248.1624457436701
     dragging: false
 edges:
-  - source: yXpH93LNqGR3_yQmQbAen
+  - source: _48hGUq83oDe58EpIKCvs
     sourceHandle: b
     target: Bz-uux-pak74ee24gOVXt
     targetHandle: t
-    id: ggUtX-
+    id: Os-SGD
+  - source: yXpH93LNqGR3_yQmQbAen
+    sourceHandle: r
+    target: _48hGUq83oDe58EpIKCvs
+    targetHandle: l
+    id: BlfRT3
   - source: '-9LiaTdnE6L7H3ChKvgzh'
     sourceHandle: b
     target: yXpH93LNqGR3_yQmQbAen
