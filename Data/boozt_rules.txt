@@ -3,6 +3,4 @@ STEP BY STEP
 CHECK MATH
 from the  Data Supplied fill the fields in the BOOZT template in a new copy
 Fill in the new copy using the column ID's from the template and the data supplied
-Fill in all of the fields even if not data is avaiilable
-If no data is a available enter "no data supplied"
 
