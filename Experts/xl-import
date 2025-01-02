@@ -212,12 +212,33 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 226
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1344.3164198514576
       'y': -41.13984432686248
     dragging: false
+  - id: 6OMemqMbC262DbFpMYaj0
+    type: out
+    position:
+      x: 739.2450595960124
+      'y': 1157.7681294418835
+    data:
+      id: 6OMemqMbC262DbFpMYaj0
+      title: Boozt-Test.xlsx
+      outputName: Boozt-Test.xlsx
+    width: 210
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 739.2450595960124
+      'y': 1157.7681294418835
+    dragging: false
 edges:
+  - source: OY0cfGccXG7_kHVIjSLqm
+    sourceHandle: b
+    target: 6OMemqMbC262DbFpMYaj0
+    targetHandle: t
+    id: jAZAAg
   - source: Jlh7mgK5sJ2Ba8K0kiXJy
     sourceHandle: b
     target: Bz-uux-pak74ee24gOVXt
