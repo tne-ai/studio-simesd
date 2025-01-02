@@ -21,8 +21,8 @@ nodes:
   - id: 3mUM1WjaNSZzIgvl1CoT0
     type: file
     position:
-      x: 1026.133434269309
-      'y': -549.9231362050906
+      x: 1045.3871407299032
+      'y': -632.7140739856451
     data:
       id: 3mUM1WjaNSZzIgvl1CoT0
       title: Boozt
@@ -34,8 +34,8 @@ nodes:
     height: 370
     selected: false
     positionAbsolute:
-      x: 1026.133434269309
-      'y': -549.9231362050906
+      x: 1045.3871407299032
+      'y': -632.7140739856451
     dragging: false
   - id: 5-kwzHoiuWztdNejK8PK_
     type: llm
@@ -110,7 +110,7 @@ nodes:
     data:
       id: SPf98jmo3x6BvBNgUqckb
       title: Prompt Debugger
-      outputName: SF2Debug
+      outputName: SF2Debug.txt
     width: 212
     height: 190
     selected: false
