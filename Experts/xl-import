@@ -29,13 +29,13 @@ nodes:
       prompt: ''
       outputType: overwrite
       outputToCanvas: false
-      useUserQuery: true
+      useUserQuery: false
       apiKey: OPENAI_API_KEY
       engineName: tne
       modelName: Llama-3.1-70B-Instruct
     width: 212
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
       x: 455.8252828717315
       'y': 335.60286215112257
@@ -43,8 +43,8 @@ nodes:
   - id: AqqVmUEBkVe01QSUW-nrw
     type: python_code
     position:
-      x: 942.1331018197684
-      'y': 151.71180442960085
+      x: 850.6501640623139
+      'y': 416.53083478012707
     data:
       id: AqqVmUEBkVe01QSUW-nrw
       title: New Code
@@ -54,11 +54,11 @@ nodes:
       flowState: *ref_0
     width: 210
     height: 348
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
-      x: 942.1331018197684
-      'y': 151.71180442960085
+      x: 850.6501640623139
+      'y': 416.53083478012707
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
@@ -234,11 +234,16 @@ nodes:
       'y': 973.1972901066683
     dragging: false
 edges:
-  - source: OY0cfGccXG7_kHVIjSLqm
+  - source: AqqVmUEBkVe01QSUW-nrw
     sourceHandle: r
     target: Bz-uux-pak74ee24gOVXt
     targetHandle: l
-    id: cacsIQ
+    id: ARmaig
+  - source: OY0cfGccXG7_kHVIjSLqm
+    sourceHandle: r
+    target: AqqVmUEBkVe01QSUW-nrw
+    targetHandle: l
+    id: OBd-KY
   - source: OY0cfGccXG7_kHVIjSLqm
     sourceHandle: b
     target: 6OMemqMbC262DbFpMYaj0
