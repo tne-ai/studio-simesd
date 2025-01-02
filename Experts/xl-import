@@ -43,8 +43,8 @@ nodes:
   - id: AqqVmUEBkVe01QSUW-nrw
     type: python_code
     position:
-      x: 978.4987053978903
-      'y': 661.6508748508488
+      x: 967.8125229446678
+      'y': 631.5959867011605
     data:
       id: AqqVmUEBkVe01QSUW-nrw
       title: New Code
@@ -57,13 +57,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 978.4987053978903
-      'y': 661.6508748508488
+      x: 967.8125229446678
+      'y': 631.5959867011605
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1391.2629310513707
-      'y': 616.3479253327451
+      x: 1321.8027451054243
+      'y': 552.2308306134103
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -102,9 +102,77 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1391.2629310513707
-      'y': 616.3479253327451
+      x: 1321.8027451054243
+      'y': 552.2308306134103
+  - id: '-9LiaTdnE6L7H3ChKvgzh'
+    type: file
+    position:
+      x: 1520.7915855895
+      'y': 75.82639273438893
+    data:
+      id: '-9LiaTdnE6L7H3ChKvgzh'
+      title: BOOZT template
+      fileName: >-
+        SF2-boozt_sustainability_textile_footwear__leather_goods_data_import_import_template_SP25_12-11-2024
+        (003)_cleaned.xlsx
+      flowState: &ref_1
+        backend: git
+        repo: studio-simesd
+        content:
+          name: xl-import
+          path: Experts/xl-import
+          sha: c2ad470b3d1bb0f87a38e213d573d425a7ea8633
+          size: 3365
+          url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
+          html_url: https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
+          git_url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/c2ad470b3d1bb0f87a38e213d573d425a7ea8633
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/studio-simesd/main/Experts/xl-import
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/c2ad470b3d1bb0f87a38e213d573d425a7ea8633
+            html: >-
+              https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
+    width: 210
+    height: 370
+    selected: false
+    positionAbsolute:
+      x: 1520.7915855895
+      'y': 75.82639273438893
+    dragging: false
+  - id: gK_ROiI4UHrp_vIPGCogg
+    type: file
+    position:
+      x: 1197.291837408561
+      'y': 160.86503075149244
+    data:
+      id: gK_ROiI4UHrp_vIPGCogg
+      title: Boozt Rules
+      fileName: boozt_rules.txt
+      flowState: *ref_1
+    width: 210
+    height: 226
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 1197.291837408561
+      'y': 160.86503075149244
 edges:
+  - source: gK_ROiI4UHrp_vIPGCogg
+    sourceHandle: b
+    target: Bz-uux-pak74ee24gOVXt
+    targetHandle: t
+    id: 3Q8un2
+  - source: '-9LiaTdnE6L7H3ChKvgzh'
+    sourceHandle: b
+    target: Bz-uux-pak74ee24gOVXt
+    targetHandle: t
+    id: niqXZY
   - source: AqqVmUEBkVe01QSUW-nrw
     sourceHandle: r
     target: Bz-uux-pak74ee24gOVXt
