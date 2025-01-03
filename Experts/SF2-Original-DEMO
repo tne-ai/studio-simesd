@@ -1,0 +1,94 @@
+nodes:
+  - id: Kz5GsNaCugeFCZFSryeJp
+    type: file
+    position:
+      x: 1017.517116241482
+      'y': 89.9149252282564
+    data:
+      id: Kz5GsNaCugeFCZFSryeJp
+      title: BOOZT template
+      fileName: BOOZT_TEXTILE_AND_LEATHER.json
+      flowState: &ref_0
+        backend: git
+        repo: studio-simesd
+    width: 210
+    height: 250
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 1017.517116241482
+      'y': 89.9149252282564
+  - id: BzhPMfCHJbTXRP9FANFp-
+    type: file
+    position:
+      x: 533.275674362223
+      'y': 216.93510305461365
+    data:
+      id: BzhPMfCHJbTXRP9FANFp-
+      title: SF2-Test_data
+      fileName: SF2-Product_Data2.json
+      flowState: *ref_0
+    width: 210
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 533.275674362223
+      'y': 216.93510305461365
+    dragging: false
+  - id: hT3UVCqU72RJ-wqQuPBOk
+    type: llm
+    position:
+      x: 1040.6478089867744
+      'y': 538.970365198382
+    data:
+      id: hT3UVCqU72RJ-wqQuPBOk
+      title: New Model
+      input: ''
+      slashgptManifest: ESG-PROD-Helper.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_0
+    width: 210
+    height: 490
+    selected: false
+    positionAbsolute:
+      x: 1040.6478089867744
+      'y': 538.970365198382
+    dragging: false
+  - id: 0B-gqFngWUtY3DluXW98O
+    type: file
+    position:
+      x: 1360.2992977975728
+      'y': 111.30770401054308
+    data:
+      id: 0B-gqFngWUtY3DluXW98O
+      title: Boozt rules
+      fileName: boozt_rules.txt
+      flowState: *ref_0
+    width: 210
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 1360.2992977975728
+      'y': 111.30770401054308
+    dragging: false
+edges:
+  - source: 0B-gqFngWUtY3DluXW98O
+    sourceHandle: b
+    target: hT3UVCqU72RJ-wqQuPBOk
+    targetHandle: t
+    id: dVx2Om
+  - source: Kz5GsNaCugeFCZFSryeJp
+    sourceHandle: b
+    target: hT3UVCqU72RJ-wqQuPBOk
+    targetHandle: t
+    id: pV_Vnh
+  - source: BzhPMfCHJbTXRP9FANFp-
+    sourceHandle: b
+    target: hT3UVCqU72RJ-wqQuPBOk
+    targetHandle: t
+    id: PrqqqZ
+description: null
