@@ -42,9 +42,9 @@ nodes:
       'y': 538.970365198382
     data:
       id: hT3UVCqU72RJ-wqQuPBOk
-      title: New Model
+      title: Apply ESG Rules
       input: ''
-      slashgptManifest: ESG-PROD-Helper.model
+      slashgptManifest: sf2_apply_esg_rules.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
