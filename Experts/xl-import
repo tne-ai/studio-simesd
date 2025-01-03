@@ -35,7 +35,7 @@ nodes:
       modelName: Llama-3.1-70B-Instruct
     width: 212
     height: 490
-    selected: true
+    selected: false
     positionAbsolute:
       x: 455.8252828717315
       'y': 335.60286215112257
@@ -107,8 +107,8 @@ nodes:
   - id: '-9LiaTdnE6L7H3ChKvgzh'
     type: file
     position:
-      x: 495.40416391746294
-      'y': -350.1318561862703
+      x: 1280.8352081237776
+      'y': -355.6000470003648
     data:
       id: '-9LiaTdnE6L7H3ChKvgzh'
       title: BOOZT template
@@ -140,16 +140,16 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 370
-    selected: false
+    selected: true
     positionAbsolute:
-      x: 495.40416391746294
-      'y': -350.1318561862703
+      x: 1280.8352081237776
+      'y': -355.6000470003648
     dragging: false
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
-      x: 894.743363117876
-      'y': -206.9132638133282
+      x: 785.3795468359842
+      'y': -266.56625451254195
     data:
       id: gK_ROiI4UHrp_vIPGCogg
       title: Boozt Rules
@@ -160,8 +160,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 894.743363117876
-      'y': -206.9132638133282
+      x: 785.3795468359842
+      'y': -266.56625451254195
   - id: _USZ7H_P8Y2Se489vFciL
     type: out
     position:
@@ -181,8 +181,8 @@ nodes:
   - id: Jlh7mgK5sJ2Ba8K0kiXJy
     type: file
     position:
-      x: 1344.3164198514576
-      'y': -41.13984432686248
+      x: 1851.3668407947748
+      'y': -211.3994219475351
     data:
       id: Jlh7mgK5sJ2Ba8K0kiXJy
       title: Report Rules
@@ -214,8 +214,8 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 1344.3164198514576
-      'y': -41.13984432686248
+      x: 1851.3668407947748
+      'y': -211.3994219475351
     dragging: false
   - id: 6OMemqMbC262DbFpMYaj0
     type: out
@@ -234,6 +234,16 @@ nodes:
       'y': 973.1972901066683
     dragging: false
 edges:
+  - source: '-9LiaTdnE6L7H3ChKvgzh'
+    sourceHandle: b
+    target: Bz-uux-pak74ee24gOVXt
+    targetHandle: t
+    id: CVp_Th
+  - source: gK_ROiI4UHrp_vIPGCogg
+    sourceHandle: b
+    target: Bz-uux-pak74ee24gOVXt
+    targetHandle: t
+    id: Dxo-YS
   - source: AqqVmUEBkVe01QSUW-nrw
     sourceHandle: r
     target: Bz-uux-pak74ee24gOVXt
@@ -259,16 +269,6 @@ edges:
     target: _USZ7H_P8Y2Se489vFciL
     targetHandle: t
     id: ZJ_O6j
-  - source: gK_ROiI4UHrp_vIPGCogg
-    sourceHandle: b
-    target: OY0cfGccXG7_kHVIjSLqm
-    targetHandle: t
-    id: Z13LL8
-  - source: '-9LiaTdnE6L7H3ChKvgzh'
-    sourceHandle: b
-    target: OY0cfGccXG7_kHVIjSLqm
-    targetHandle: t
-    id: fULAyh
   - source: eFmCxb8l02JoLTD_espAq
     sourceHandle: b
     target: OY0cfGccXG7_kHVIjSLqm
