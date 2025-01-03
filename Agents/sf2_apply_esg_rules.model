@@ -1,0 +1,29 @@
+title: Apply ESG Rules
+model:
+  engine_name: openai-gpt
+  model_name: gpt-4o
+  api_key: OPENAI_API_KEY
+temperature: 0
+max_tokens: 500
+database: ''
+stream: true
+prompt: |-
+  MARKDOWN 
+  STEP BY STEP
+  CHECK MATH
+
+  Add lines from product data mockup for weight and production quantities, packaging, factory key
+  where values are not available enter: Information not supplied
+  Insert factory name to Tier 1 Supplier
+
+
+  Apply Zalando or Boozt esg rules as specified exactly in original order
+
+  For Zalando: Use ALL Zalando attributes as headings
+  Add data for product and packaging weights at the end of the table
+  Apply answers for all attributes in identical order
+  For Boozt: Use  ALL Boozt attributes as headings
+  Add data for product and packaging weights at the end of the table
+  Apply answers for all attributes in identical order
+
+  In YAML
