@@ -2,8 +2,8 @@ nodes:
   - id: 2IUXX06hWnlHtEaRdcAX-
     type: file
     position:
-      x: 730.8016963208686
-      'y': 532.9260856453559
+      x: 824.4454161640531
+      'y': 373.6241254523523
     data:
       id: 2IUXX06hWnlHtEaRdcAX-
       title: SF2-Test-Data
@@ -16,8 +16,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 730.8016963208686
-      'y': 532.9260856453559
+      x: 824.4454161640531
+      'y': 373.6241254523523
   - id: tOkCsunonaFdKdvxohpId
     type: file
     position:
@@ -78,18 +78,18 @@ nodes:
   - id: WjDSdCnKrmSQQM4VHeG8w
     type: debug
     position:
-      x: 1149.7026764173704
-      'y': 1271.9237692249699
+      x: 1145.136048188636
+      'y': 1308.456795054845
     data:
       id: WjDSdCnKrmSQQM4VHeG8w
       title: Prompt Debugger
-      outputName: ''
+      outputName: SF2debug.yxt
     width: 210
     height: 190
     selected: false
     positionAbsolute:
-      x: 1149.7026764173704
-      'y': 1271.9237692249699
+      x: 1145.136048188636
+      'y': 1308.456795054845
     dragging: false
 edges:
   - source: h0meF994qVmYOyegHw-To
