@@ -1,0 +1,94 @@
+nodes:
+  - id: 2IUXX06hWnlHtEaRdcAX-
+    type: file
+    position:
+      x: 867.5
+      'y': 334.875
+    data:
+      id: 2IUXX06hWnlHtEaRdcAX-
+      title: SF2-Test-Data
+      fileName: SF2-Product_Data2.json
+      flowState: &ref_0
+        backend: git
+        repo: studio-simesd
+    width: 210
+    height: 250
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 867.5
+      'y': 334.875
+  - id: tOkCsunonaFdKdvxohpId
+    type: file
+    position:
+      x: 1099
+      'y': 336.0625
+    data:
+      id: tOkCsunonaFdKdvxohpId
+      title: Boozt Template
+      fileName: BOOZT_TEXTILE_AND_LEATHER.json
+      flowState: *ref_0
+    width: 210
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 1099
+      'y': 336.0625
+    dragging: false
+  - id: 2DR0hkBtNH2nukqQrW9pI
+    type: file
+    position:
+      x: 1336
+      'y': 344.5625
+    data:
+      id: 2DR0hkBtNH2nukqQrW9pI
+      title: Boozt Rules
+      fileName: boozt_rules.txt
+      flowState: *ref_0
+    width: 210
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 1336
+      'y': 344.5625
+    dragging: false
+  - id: h0meF994qVmYOyegHw-To
+    type: llm
+    position:
+      x: 1061
+      'y': 680.0625
+    data:
+      id: h0meF994qVmYOyegHw-To
+      title: SF2 Data Entry
+      input: ''
+      slashgptManifest: sf2_data_entry.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_0
+    width: 210
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 1061
+      'y': 680.0625
+    dragging: false
+edges:
+  - source: 2DR0hkBtNH2nukqQrW9pI
+    sourceHandle: b
+    target: h0meF994qVmYOyegHw-To
+    targetHandle: t
+    id: _29KdI
+  - source: tOkCsunonaFdKdvxohpId
+    sourceHandle: b
+    target: h0meF994qVmYOyegHw-To
+    targetHandle: t
+    id: GLYO9u
+  - source: 2IUXX06hWnlHtEaRdcAX-
+    sourceHandle: b
+    target: h0meF994qVmYOyegHw-To
+    targetHandle: t
+    id: 6dpzVc
+description: null
