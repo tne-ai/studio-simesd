@@ -83,7 +83,7 @@ nodes:
     data:
       id: WjDSdCnKrmSQQM4VHeG8w
       title: Prompt Debugger
-      outputName: SF2debug.yxt
+      outputName: SF2debug.txt
     width: 210
     height: 190
     selected: false
