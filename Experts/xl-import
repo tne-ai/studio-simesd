@@ -29,13 +29,13 @@ nodes:
       prompt: ''
       outputType: overwrite
       outputToCanvas: false
-      useUserQuery: false
+      useUserQuery: true
       apiKey: OPENAI_API_KEY
       engineName: tne
       modelName: Llama-3.1-70B-Instruct
     width: 212
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
       x: 455.8252828717315
       'y': 335.60286215112257
@@ -62,8 +62,8 @@ nodes:
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1259.484924773555
-      'y': 357.97213126865216
+      x: 1264.1455469554019
+      'y': 340.88318326854625
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -102,8 +102,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1259.484924773555
-      'y': 357.97213126865216
+      x: 1264.1455469554019
+      'y': 340.88318326854625
   - id: '-9LiaTdnE6L7H3ChKvgzh'
     type: file
     position:
@@ -157,7 +157,7 @@ nodes:
       flowState: *ref_1
     width: 210
     height: 226
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
       x: 1005.6672240642383
