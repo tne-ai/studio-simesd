@@ -1,0 +1,13 @@
+title: SF2_Data_Entry
+model:
+  engine_name: tne
+  model_name: Llama-3.1-405B-Instruct
+  api_key: OPENAI_API_KEY
+temperature: 0
+max_tokens: 500
+database: ''
+stream: true
+prompt: |
+  STEP By STEP
+  CHECK MATH
+  USE JSON
