@@ -2,8 +2,8 @@ nodes:
   - id: 2IUXX06hWnlHtEaRdcAX-
     type: file
     position:
-      x: 867.5
-      'y': 334.875
+      x: 730.8016963208686
+      'y': 532.9260856453559
     data:
       id: 2IUXX06hWnlHtEaRdcAX-
       title: SF2-Test-Data
@@ -16,8 +16,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 867.5
-      'y': 334.875
+      x: 730.8016963208686
+      'y': 532.9260856453559
   - id: tOkCsunonaFdKdvxohpId
     type: file
     position:
@@ -55,8 +55,8 @@ nodes:
   - id: h0meF994qVmYOyegHw-To
     type: llm
     position:
-      x: 1061
-      'y': 680.0625
+      x: 1134.1927925211098
+      'y': 759.7134800965018
     data:
       id: h0meF994qVmYOyegHw-To
       title: SF2 Data Entry
@@ -72,10 +72,31 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 1061
-      'y': 680.0625
+      x: 1134.1927925211098
+      'y': 759.7134800965018
+    dragging: false
+  - id: WjDSdCnKrmSQQM4VHeG8w
+    type: debug
+    position:
+      x: 1149.7026764173704
+      'y': 1271.9237692249699
+    data:
+      id: WjDSdCnKrmSQQM4VHeG8w
+      title: Prompt Debugger
+      outputName: ''
+    width: 210
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 1149.7026764173704
+      'y': 1271.9237692249699
     dragging: false
 edges:
+  - source: h0meF994qVmYOyegHw-To
+    sourceHandle: b
+    target: WjDSdCnKrmSQQM4VHeG8w
+    targetHandle: t
+    id: mwaZXM
   - source: 2DR0hkBtNH2nukqQrW9pI
     sourceHandle: b
     target: h0meF994qVmYOyegHw-To
