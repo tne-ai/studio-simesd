@@ -43,8 +43,8 @@ nodes:
   - id: AqqVmUEBkVe01QSUW-nrw
     type: python_code
     position:
-      x: 850.6501640623139
-      'y': 416.53083478012707
+      x: 713.9385800614664
+      'y': 76.30541550529061
     data:
       id: AqqVmUEBkVe01QSUW-nrw
       title: New Code
@@ -57,8 +57,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 850.6501640623139
-      'y': 416.53083478012707
+      x: 713.9385800614664
+      'y': 76.30541550529061
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
@@ -212,7 +212,7 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 226
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1720.8759236402443
       'y': -322.006008868994
@@ -273,6 +273,11 @@ nodes:
       'y': -396.32903023344545
     dragging: false
 edges:
+  - source: OY0cfGccXG7_kHVIjSLqm
+    sourceHandle: r
+    target: Bz-uux-pak74ee24gOVXt
+    targetHandle: l
+    id: V-Ycf5
   - source: 0o70Lfmp1aoci_QXHFyp2
     sourceHandle: b
     target: Bz-uux-pak74ee24gOVXt
@@ -283,16 +288,6 @@ edges:
     target: Bz-uux-pak74ee24gOVXt
     targetHandle: t
     id: Dxo-YS
-  - source: AqqVmUEBkVe01QSUW-nrw
-    sourceHandle: r
-    target: Bz-uux-pak74ee24gOVXt
-    targetHandle: l
-    id: ARmaig
-  - source: OY0cfGccXG7_kHVIjSLqm
-    sourceHandle: r
-    target: AqqVmUEBkVe01QSUW-nrw
-    targetHandle: l
-    id: OBd-KY
   - source: OY0cfGccXG7_kHVIjSLqm
     sourceHandle: b
     target: 6OMemqMbC262DbFpMYaj0
