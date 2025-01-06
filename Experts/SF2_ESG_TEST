@@ -1,0 +1,94 @@
+nodes:
+  - id: SA73t4HTFpu7Y1tKkesj8
+    type: file
+    position:
+      x: 388.8719707810742
+      'y': 55.669128233428445
+    data:
+      id: SA73t4HTFpu7Y1tKkesj8
+      title: Test Data
+      fileName: SF2-Product_Data2.json
+      flowState: &ref_0
+        backend: git
+        repo: studio-simesd
+    width: 210
+    height: 250
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 388.8719707810742
+      'y': 55.669128233428445
+  - id: 7v71JwH37fFM_QeZV-F49
+    type: llm
+    position:
+      x: 533.5957476360176
+      'y': 431.5309061390306
+    data:
+      id: 7v71JwH37fFM_QeZV-F49
+      title: ESG data Entry
+      input: ''
+      slashgptManifest: esg_data_entry.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_0
+    width: 210
+    height: 466
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 533.5957476360176
+      'y': 431.5309061390306
+  - id: 5GWRsWIjvkNID3Q7lKUO0
+    type: file
+    position:
+      x: 573.5591678591819
+      'y': 49.6959572222702
+    data:
+      id: 5GWRsWIjvkNID3Q7lKUO0
+      title: Boozt template
+      fileName: BOOZT_TEXTILE_AND_LEATHER.json
+      flowState: *ref_0
+    width: 210
+    height: 250
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 573.5591678591819
+      'y': 49.6959572222702
+  - id: GxyxT5xWFmzE67nxtAJ8J
+    type: file
+    position:
+      x: 802.1794848652079
+      'y': 61.671746035089114
+    data:
+      id: GxyxT5xWFmzE67nxtAJ8J
+      title: Rules
+      fileName: boozt_rules.txt
+      flowState: *ref_0
+    width: 210
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 802.1794848652079
+      'y': 61.671746035089114
+    dragging: false
+edges:
+  - source: GxyxT5xWFmzE67nxtAJ8J
+    sourceHandle: b
+    target: 7v71JwH37fFM_QeZV-F49
+    targetHandle: t
+    id: U-aV47
+  - source: 5GWRsWIjvkNID3Q7lKUO0
+    sourceHandle: b
+    target: 7v71JwH37fFM_QeZV-F49
+    targetHandle: t
+    id: ksFwee
+  - source: SA73t4HTFpu7Y1tKkesj8
+    sourceHandle: b
+    target: 7v71JwH37fFM_QeZV-F49
+    targetHandle: t
+    id: FiT9Z-
+description: null
