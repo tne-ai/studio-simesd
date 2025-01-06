@@ -1,0 +1,15 @@
+title: ESG data entry
+model:
+  engine_name: tne
+  model_name: Llama-3.1-405B-Instruct
+  api_key: OPENAI_API_KEY
+temperature: 0
+max_tokens: 500
+database: ''
+stream: true
+prompt: |
+  step by step
+  check math
+  use markdown
+
+  You are a data assistant for filling in forms with product information into retailer ESG templates
