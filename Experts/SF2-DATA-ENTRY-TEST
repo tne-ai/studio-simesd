@@ -55,13 +55,13 @@ nodes:
   - id: h0meF994qVmYOyegHw-To
     type: llm
     position:
-      x: 1134.1927925211098
-      'y': 759.7134800965018
+      x: 1087.9771157297725
+      'y': 728.903028902277
     data:
       id: h0meF994qVmYOyegHw-To
       title: SF2 Data Entry
       input: ''
-      slashgptManifest: sf2_data_entry.model
+      slashgptManifest: esg_data_entry.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
@@ -72,14 +72,14 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 1134.1927925211098
-      'y': 759.7134800965018
+      x: 1087.9771157297725
+      'y': 728.903028902277
     dragging: false
   - id: WjDSdCnKrmSQQM4VHeG8w
     type: debug
     position:
-      x: 1145.136048188636
-      'y': 1308.456795054845
+      x: 998.7864050160683
+      'y': 1303.6426620557475
     data:
       id: WjDSdCnKrmSQQM4VHeG8w
       title: Prompt Debugger
@@ -88,8 +88,8 @@ nodes:
     height: 190
     selected: false
     positionAbsolute:
-      x: 1145.136048188636
-      'y': 1308.456795054845
+      x: 998.7864050160683
+      'y': 1303.6426620557475
     dragging: false
 edges:
   - source: h0meF994qVmYOyegHw-To
