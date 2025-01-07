@@ -1,0 +1,94 @@
+nodes:
+  - id: 2_P8JDoEOWFHMGgHyUY0w
+    type: file
+    position:
+      x: 545.2710475320728
+      'y': 296.16940470754537
+    data:
+      id: 2_P8JDoEOWFHMGgHyUY0w
+      title: SF2- Test Data
+      fileName: SF2-Product_Data2.json
+      flowState: &ref_0
+        backend: git
+        repo: studio-simesd
+    width: 210
+    height: 250
+    selected: true
+    dragging: false
+    positionAbsolute:
+      x: 545.2710475320728
+      'y': 296.16940470754537
+  - id: yOoVD7lC_jni7ICEMjLCA
+    type: file
+    position:
+      x: 1038.1705595292456
+      'y': 301.3656636483477
+    data:
+      id: yOoVD7lC_jni7ICEMjLCA
+      title: Boozt template
+      fileName: BOOZT_TEXTILE_AND_LEATHER.json
+      flowState: *ref_0
+    width: 210
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 1038.1705595292456
+      'y': 301.3656636483477
+    dragging: false
+  - id: l3aMc3YkieAEVyikzCA7y
+    type: file
+    position:
+      x: 801.2354017653295
+      'y': 307.3715029422159
+    data:
+      id: l3aMc3YkieAEVyikzCA7y
+      title: Boozt Rules
+      fileName: boozt_rules.txt
+      flowState: *ref_0
+    width: 210
+    height: 226
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 801.2354017653295
+      'y': 307.3715029422159
+  - id: agWTu7mVsZcEj43XDMXu6
+    type: llm
+    position:
+      x: 841.5
+      'y': 657.8125
+    data:
+      id: agWTu7mVsZcEj43XDMXu6
+      title: Dtat Entry
+      input: ''
+      slashgptManifest: esg_data_entry.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_0
+    width: 210
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 841.5
+      'y': 657.8125
+    dragging: false
+edges:
+  - source: 2_P8JDoEOWFHMGgHyUY0w
+    sourceHandle: b
+    target: agWTu7mVsZcEj43XDMXu6
+    targetHandle: t
+    id: qCD2s5
+  - source: l3aMc3YkieAEVyikzCA7y
+    sourceHandle: b
+    target: agWTu7mVsZcEj43XDMXu6
+    targetHandle: t
+    id: nUf1nG
+  - source: yOoVD7lC_jni7ICEMjLCA
+    sourceHandle: b
+    target: agWTu7mVsZcEj43XDMXu6
+    targetHandle: t
+    id: gdaUUs
+description: null
