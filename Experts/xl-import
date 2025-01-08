@@ -2,13 +2,13 @@ nodes:
   - id: eFmCxb8l02JoLTD_espAq
     type: file
     position:
-      x: 471.52131471556595
-      'y': -387.05385957387205
+      x: 423.52131471556595
+      'y': -621.053859573872
     data:
       id: eFmCxb8l02JoLTD_espAq
       title: SF-2 test Data
       fileName: SF2-Product Data - Mockup-2.xlsx
-      flowState: &ref_0
+      flowState:
         backend: git
         repo: studio-simesd
     width: 210
@@ -16,13 +16,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 471.52131471556595
-      'y': -387.05385957387205
+      x: 423.52131471556595
+      'y': -621.053859573872
   - id: OY0cfGccXG7_kHVIjSLqm
     type: code_generation
     position:
-      x: 457.8252828717315
-      'y': -22.397137848877435
+      x: 459.8252828717315
+      'y': -164.39713784887743
     data:
       id: OY0cfGccXG7_kHVIjSLqm
       title: Generate Code
@@ -35,35 +35,16 @@ nodes:
       modelName: gpt-4o
     width: 212
     height: 466
-    selected: true
-    positionAbsolute:
-      x: 457.8252828717315
-      'y': -22.397137848877435
-    dragging: false
-  - id: AqqVmUEBkVe01QSUW-nrw
-    type: python_code
-    position:
-      x: 1112.381600789808
-      'y': 116.31667187099782
-    data:
-      id: AqqVmUEBkVe01QSUW-nrw
-      title: New Code
-      module: chat_markdown.py
-      outputType: overwrite
-      outputToCanvas: false
-      flowState: *ref_0
-    width: 210
-    height: 348
     selected: false
-    dragging: false
     positionAbsolute:
-      x: 1112.381600789808
-      'y': 116.31667187099782
+      x: 459.8252828717315
+      'y': -164.39713784887743
+    dragging: false
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1552.1455469554019
-      'y': 84.88318326854625
+      x: 1508.1455469554019
+      'y': 58.88318326854625
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -102,13 +83,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1552.1455469554019
-      'y': 84.88318326854625
+      x: 1508.1455469554019
+      'y': 58.88318326854625
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
-      x: 1355.6672240642383
-      'y': -274.27328047214394
+      x: 1275.6672240642383
+      'y': -408.27328047214394
     data:
       id: gK_ROiI4UHrp_vIPGCogg
       title: Boozt Rules
@@ -141,8 +122,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1355.6672240642383
-      'y': -274.27328047214394
+      x: 1275.6672240642383
+      'y': -408.27328047214394
   - id: _USZ7H_P8Y2Se489vFciL
     type: out
     position:
@@ -162,8 +143,8 @@ nodes:
   - id: Jlh7mgK5sJ2Ba8K0kiXJy
     type: file
     position:
-      x: 1702.8759236402443
-      'y': -274.006008868994
+      x: 1568.8759236402443
+      'y': -434.006008868994
     data:
       id: Jlh7mgK5sJ2Ba8K0kiXJy
       title: Report Rules
@@ -195,8 +176,8 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 1702.8759236402443
-      'y': -274.006008868994
+      x: 1568.8759236402443
+      'y': -434.006008868994
     dragging: false
   - id: 6OMemqMbC262DbFpMYaj0
     type: out
@@ -217,8 +198,8 @@ nodes:
   - id: 0o70Lfmp1aoci_QXHFyp2
     type: file
     position:
-      x: 800.3472837215397
-      'y': -406.09673386985725
+      x: 774.3472837215397
+      'y': -745.6967338698566
     data:
       id: 0o70Lfmp1aoci_QXHFyp2
       title: BOOZT_TEMPLATE_textiles and Leather
@@ -252,14 +233,14 @@ nodes:
     height: 346
     selected: false
     positionAbsolute:
-      x: 800.3472837215397
-      'y': -406.09673386985725
+      x: 774.3472837215397
+      'y': -745.6967338698566
     dragging: false
   - id: 1yDzfNXjkxOUtiNtoDlqi
     type: code_generation
     position:
-      x: 784.0977877233198
-      'y': -4.655471524024733
+      x: 900.0977877233198
+      'y': -336.65547152402473
     data:
       id: 1yDzfNXjkxOUtiNtoDlqi
       title: Generate Code
@@ -272,12 +253,17 @@ nodes:
       modelName: gpt-4o
     width: 212
     height: 466
-    selected: false
+    selected: true
     positionAbsolute:
-      x: 784.0977877233198
-      'y': -4.655471524024733
+      x: 900.0977877233198
+      'y': -336.65547152402473
     dragging: false
 edges:
+  - source: 1yDzfNXjkxOUtiNtoDlqi
+    sourceHandle: b
+    target: Bz-uux-pak74ee24gOVXt
+    targetHandle: t
+    id: 2mFyJd
   - source: OY0cfGccXG7_kHVIjSLqm
     sourceHandle: r
     target: 1yDzfNXjkxOUtiNtoDlqi
@@ -294,17 +280,6 @@ edges:
     target: 1yDzfNXjkxOUtiNtoDlqi
     targetHandle: t
     id: elqoZg
-  - source: 1yDzfNXjkxOUtiNtoDlqi
-    sourceHandle: r
-    target: AqqVmUEBkVe01QSUW-nrw
-    targetHandle: l
-    id: S6_PT7
-    selected: false
-  - source: AqqVmUEBkVe01QSUW-nrw
-    sourceHandle: r
-    target: Bz-uux-pak74ee24gOVXt
-    targetHandle: l
-    id: bR3AK8
   - source: Jlh7mgK5sJ2Ba8K0kiXJy
     sourceHandle: b
     target: Bz-uux-pak74ee24gOVXt
