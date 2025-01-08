@@ -2,8 +2,8 @@ nodes:
   - id: eFmCxb8l02JoLTD_espAq
     type: file
     position:
-      x: 171.52131471556595
-      'y': -291.05385957387205
+      x: 471.52131471556595
+      'y': -387.05385957387205
     data:
       id: eFmCxb8l02JoLTD_espAq
       title: SF-2 test Data
@@ -16,35 +16,35 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 171.52131471556595
-      'y': -291.05385957387205
+      x: 471.52131471556595
+      'y': -387.05385957387205
   - id: OY0cfGccXG7_kHVIjSLqm
     type: code_generation
     position:
-      x: 455.8252828717315
-      'y': 335.60286215112257
+      x: 457.8252828717315
+      'y': -22.397137848877435
     data:
       id: OY0cfGccXG7_kHVIjSLqm
       title: Generate Code
       prompt: ''
       outputType: overwrite
       outputToCanvas: false
-      useUserQuery: true
+      useUserQuery: false
       apiKey: OPENAI_API_KEY
-      engineName: tne
-      modelName: Llama-3.1-70B-Instruct
+      engineName: openai-gpt
+      modelName: gpt-4o
     width: 212
-    height: 490
-    selected: false
+    height: 466
+    selected: true
     positionAbsolute:
-      x: 455.8252828717315
-      'y': 335.60286215112257
+      x: 457.8252828717315
+      'y': -22.397137848877435
     dragging: false
   - id: AqqVmUEBkVe01QSUW-nrw
     type: python_code
     position:
-      x: 1126.381600789808
-      'y': 356.3166718709978
+      x: 1112.381600789808
+      'y': 116.31667187099782
     data:
       id: AqqVmUEBkVe01QSUW-nrw
       title: New Code
@@ -57,13 +57,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1126.381600789808
-      'y': 356.3166718709978
+      x: 1112.381600789808
+      'y': 116.31667187099782
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1530.1455469554019
-      'y': 326.88318326854625
+      x: 1552.1455469554019
+      'y': 84.88318326854625
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -102,13 +102,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1530.1455469554019
-      'y': 326.88318326854625
+      x: 1552.1455469554019
+      'y': 84.88318326854625
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
-      x: 1431.6672240642383
-      'y': -208.27328047214394
+      x: 1355.6672240642383
+      'y': -274.27328047214394
     data:
       id: gK_ROiI4UHrp_vIPGCogg
       title: Boozt Rules
@@ -141,8 +141,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1431.6672240642383
-      'y': -208.27328047214394
+      x: 1355.6672240642383
+      'y': -274.27328047214394
   - id: _USZ7H_P8Y2Se489vFciL
     type: out
     position:
@@ -162,8 +162,8 @@ nodes:
   - id: Jlh7mgK5sJ2Ba8K0kiXJy
     type: file
     position:
-      x: 1720.8759236402443
-      'y': -322.006008868994
+      x: 1702.8759236402443
+      'y': -274.006008868994
     data:
       id: Jlh7mgK5sJ2Ba8K0kiXJy
       title: Report Rules
@@ -195,8 +195,8 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 1720.8759236402443
-      'y': -322.006008868994
+      x: 1702.8759236402443
+      'y': -274.006008868994
     dragging: false
   - id: 6OMemqMbC262DbFpMYaj0
     type: out
@@ -217,8 +217,8 @@ nodes:
   - id: 0o70Lfmp1aoci_QXHFyp2
     type: file
     position:
-      x: 724.3472837215397
-      'y': -392.09673386985725
+      x: 800.3472837215397
+      'y': -406.09673386985725
     data:
       id: 0o70Lfmp1aoci_QXHFyp2
       title: BOOZT_TEMPLATE_textiles and Leather
@@ -252,14 +252,14 @@ nodes:
     height: 346
     selected: false
     positionAbsolute:
-      x: 724.3472837215397
-      'y': -392.09673386985725
+      x: 800.3472837215397
+      'y': -406.09673386985725
     dragging: false
   - id: 1yDzfNXjkxOUtiNtoDlqi
     type: code_generation
     position:
-      x: 808.0977877233198
-      'y': 349.34452847597527
+      x: 784.0977877233198
+      'y': -4.655471524024733
     data:
       id: 1yDzfNXjkxOUtiNtoDlqi
       title: Generate Code
@@ -274,15 +274,21 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 808.0977877233198
-      'y': 349.34452847597527
+      x: 784.0977877233198
+      'y': -4.655471524024733
     dragging: false
 edges:
+  - source: OY0cfGccXG7_kHVIjSLqm
+    sourceHandle: r
+    target: 1yDzfNXjkxOUtiNtoDlqi
+    targetHandle: l
+    id: YMVA19
   - source: gK_ROiI4UHrp_vIPGCogg
     sourceHandle: b
     target: Bz-uux-pak74ee24gOVXt
     targetHandle: t
     id: 58YwHy
+    selected: false
   - source: 0o70Lfmp1aoci_QXHFyp2
     sourceHandle: b
     target: 1yDzfNXjkxOUtiNtoDlqi
@@ -293,22 +299,12 @@ edges:
     target: AqqVmUEBkVe01QSUW-nrw
     targetHandle: l
     id: S6_PT7
-  - source: OY0cfGccXG7_kHVIjSLqm
-    sourceHandle: r
-    target: 1yDzfNXjkxOUtiNtoDlqi
-    targetHandle: l
-    id: LCexUW
+    selected: false
   - source: AqqVmUEBkVe01QSUW-nrw
     sourceHandle: r
     target: Bz-uux-pak74ee24gOVXt
     targetHandle: l
     id: bR3AK8
-  - source: OY0cfGccXG7_kHVIjSLqm
-    sourceHandle: b
-    target: 6OMemqMbC262DbFpMYaj0
-    targetHandle: t
-    id: jAZAAg
-    selected: false
   - source: Jlh7mgK5sJ2Ba8K0kiXJy
     sourceHandle: b
     target: Bz-uux-pak74ee24gOVXt
