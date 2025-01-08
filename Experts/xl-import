@@ -43,8 +43,8 @@ nodes:
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1338.1455469554019
-      'y': -89.11681673145375
+      x: 1574.1455469554019
+      'y': -53.11681673145375
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -80,16 +80,16 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 466
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
-      x: 1338.1455469554019
-      'y': -89.11681673145375
+      x: 1574.1455469554019
+      'y': -53.11681673145375
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
-      x: 1275.6672240642383
-      'y': -408.27328047214394
+      x: 1531.6672240642383
+      'y': -466.27328047214394
     data:
       id: gK_ROiI4UHrp_vIPGCogg
       title: Boozt Rules
@@ -122,8 +122,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1275.6672240642383
-      'y': -408.27328047214394
+      x: 1531.6672240642383
+      'y': -466.27328047214394
   - id: _USZ7H_P8Y2Se489vFciL
     type: out
     position:
@@ -143,8 +143,8 @@ nodes:
   - id: Jlh7mgK5sJ2Ba8K0kiXJy
     type: file
     position:
-      x: 1568.8759236402443
-      'y': -434.006008868994
+      x: 2012.8759236402443
+      'y': -400.006008868994
     data:
       id: Jlh7mgK5sJ2Ba8K0kiXJy
       title: Report Rules
@@ -176,8 +176,8 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 1568.8759236402443
-      'y': -434.006008868994
+      x: 2012.8759236402443
+      'y': -400.006008868994
     dragging: false
   - id: 6OMemqMbC262DbFpMYaj0
     type: out
@@ -239,8 +239,8 @@ nodes:
   - id: 1yDzfNXjkxOUtiNtoDlqi
     type: code_generation
     position:
-      x: 852.0977877233198
-      'y': -188.65547152402473
+      x: 850.0977877233198
+      'y': -170.65547152402473
     data:
       id: 1yDzfNXjkxOUtiNtoDlqi
       title: Generate Code
@@ -253,17 +253,63 @@ nodes:
       modelName: gpt-4o
     width: 212
     height: 466
+    selected: true
+    positionAbsolute:
+      x: 850.0977877233198
+      'y': -170.65547152402473
+    dragging: false
+  - id: zTEmB0W8O57KYllI9C0o5
+    type: python_code
+    position:
+      x: 1218.09778772332
+      'y': -51.80547152402403
+    data:
+      id: zTEmB0W8O57KYllI9C0o5
+      title: New Code
+      module: chat_markdown.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState:
+        backend: git
+        repo: studio-simesd
+        content:
+          name: xl-import
+          path: Experts/xl-import
+          sha: e6be6806ca7c01e88635355a4eb136b7d9d172fe
+          size: 9668
+          url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
+          html_url: https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
+          git_url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/e6be6806ca7c01e88635355a4eb136b7d9d172fe
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/studio-simesd/main/Experts/xl-import
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/e6be6806ca7c01e88635355a4eb136b7d9d172fe
+            html: >-
+              https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
+    width: 210
+    height: 348
     selected: false
     positionAbsolute:
-      x: 852.0977877233198
-      'y': -188.65547152402473
+      x: 1218.09778772332
+      'y': -51.80547152402403
     dragging: false
 edges:
-  - source: 1yDzfNXjkxOUtiNtoDlqi
+  - source: zTEmB0W8O57KYllI9C0o5
     sourceHandle: r
     target: Bz-uux-pak74ee24gOVXt
     targetHandle: l
-    id: g1vkAf
+    id: 6V4bQC
+  - source: 1yDzfNXjkxOUtiNtoDlqi
+    sourceHandle: r
+    target: zTEmB0W8O57KYllI9C0o5
+    targetHandle: l
+    id: It7OSP
   - source: OY0cfGccXG7_kHVIjSLqm
     sourceHandle: r
     target: 1yDzfNXjkxOUtiNtoDlqi
