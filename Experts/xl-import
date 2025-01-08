@@ -43,8 +43,8 @@ nodes:
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1508.1455469554019
-      'y': 58.88318326854625
+      x: 1338.1455469554019
+      'y': -89.11681673145375
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -80,11 +80,11 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 466
-    selected: false
+    selected: true
     dragging: false
     positionAbsolute:
-      x: 1508.1455469554019
-      'y': 58.88318326854625
+      x: 1338.1455469554019
+      'y': -89.11681673145375
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
@@ -239,8 +239,8 @@ nodes:
   - id: 1yDzfNXjkxOUtiNtoDlqi
     type: code_generation
     position:
-      x: 900.0977877233198
-      'y': -336.65547152402473
+      x: 852.0977877233198
+      'y': -188.65547152402473
     data:
       id: 1yDzfNXjkxOUtiNtoDlqi
       title: Generate Code
@@ -253,17 +253,17 @@ nodes:
       modelName: gpt-4o
     width: 212
     height: 466
-    selected: true
+    selected: false
     positionAbsolute:
-      x: 900.0977877233198
-      'y': -336.65547152402473
+      x: 852.0977877233198
+      'y': -188.65547152402473
     dragging: false
 edges:
   - source: 1yDzfNXjkxOUtiNtoDlqi
-    sourceHandle: b
+    sourceHandle: r
     target: Bz-uux-pak74ee24gOVXt
-    targetHandle: t
-    id: 2mFyJd
+    targetHandle: l
+    id: g1vkAf
   - source: OY0cfGccXG7_kHVIjSLqm
     sourceHandle: r
     target: 1yDzfNXjkxOUtiNtoDlqi
