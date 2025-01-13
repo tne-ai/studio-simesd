@@ -2,8 +2,8 @@ nodes:
   - id: eFmCxb8l02JoLTD_espAq
     type: file
     position:
-      x: 245.52131471556595
-      'y': -1385.0538595738722
+      x: 225.52131471556595
+      'y': -1639.0538595738722
     data:
       id: eFmCxb8l02JoLTD_espAq
       title: SF-2 test Data
@@ -16,13 +16,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 245.52131471556595
-      'y': -1385.0538595738722
+      x: 225.52131471556595
+      'y': -1639.0538595738722
   - id: OY0cfGccXG7_kHVIjSLqm
     type: code_generation
     position:
-      x: 363.8252828717315
-      'y': -1008.3971378488775
+      x: 517.8252828717315
+      'y': -1252.3971378488775
     data:
       id: OY0cfGccXG7_kHVIjSLqm
       title: Generate Code
@@ -37,8 +37,8 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 363.8252828717315
-      'y': -1008.3971378488775
+      x: 517.8252828717315
+      'y': -1252.3971378488775
     dragging: false
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
@@ -88,8 +88,8 @@ nodes:
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
-      x: 1631.6672240642386
-      'y': -1164.273280472144
+      x: 1967.6672240642386
+      'y': -1380.273280472144
     data:
       id: gK_ROiI4UHrp_vIPGCogg
       title: Boozt Rules
@@ -122,8 +122,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1631.6672240642386
-      'y': -1164.273280472144
+      x: 1967.6672240642386
+      'y': -1380.273280472144
   - id: _USZ7H_P8Y2Se489vFciL
     type: out
     position:
@@ -198,8 +198,8 @@ nodes:
   - id: 0o70Lfmp1aoci_QXHFyp2
     type: file
     position:
-      x: 780.3472837215397
-      'y': -1714.8967338698544
+      x: 904.3472837215397
+      'y': -1842.8967338698544
     data:
       id: 0o70Lfmp1aoci_QXHFyp2
       title: BOOZT_TEMPLATE_textiles and Leather
@@ -231,16 +231,16 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 278
     height: 346
-    selected: true
+    selected: false
     positionAbsolute:
-      x: 780.3472837215397
-      'y': -1714.8967338698544
+      x: 904.3472837215397
+      'y': -1842.8967338698544
     dragging: false
   - id: 1yDzfNXjkxOUtiNtoDlqi
     type: code_generation
     position:
-      x: 1166.58957068187
-      'y': -1370.235750624545
+      x: 1208.58957068187
+      'y': -1422.235750624545
     data:
       id: 1yDzfNXjkxOUtiNtoDlqi
       title: Generate Code
@@ -255,14 +255,14 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 1166.58957068187
-      'y': -1370.235750624545
+      x: 1208.58957068187
+      'y': -1422.235750624545
     dragging: false
   - id: zTEmB0W8O57KYllI9C0o5
     type: python_code
     position:
-      x: 1394.7574590416618
-      'y': -845.805471524024
+      x: 1532.7574590416616
+      'y': -1319.8054715240241
     data:
       id: zTEmB0W8O57KYllI9C0o5
       title: New Code
@@ -294,16 +294,16 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 348
-    selected: false
+    selected: true
     positionAbsolute:
-      x: 1394.7574590416618
-      'y': -845.805471524024
+      x: 1532.7574590416616
+      'y': -1319.8054715240241
     dragging: false
   - id: MCuJ0MLTJBwRUsXSnpiIl
     type: python_code
     position:
-      x: 775.2042859259673
-      'y': -890.5172444799476
+      x: 853.2042859259673
+      'y': -1142.5172444799477
     data:
       id: MCuJ0MLTJBwRUsXSnpiIl
       title: New Code
@@ -337,10 +337,20 @@ nodes:
     height: 348
     selected: false
     positionAbsolute:
-      x: 775.2042859259673
-      'y': -890.5172444799476
+      x: 853.2042859259673
+      'y': -1142.5172444799477
     dragging: false
 edges:
+  - source: 1yDzfNXjkxOUtiNtoDlqi
+    sourceHandle: r
+    target: zTEmB0W8O57KYllI9C0o5
+    targetHandle: l
+    id: 8T0G8I
+  - source: OY0cfGccXG7_kHVIjSLqm
+    sourceHandle: r
+    target: MCuJ0MLTJBwRUsXSnpiIl
+    targetHandle: l
+    id: nOS4yU
   - source: MCuJ0MLTJBwRUsXSnpiIl
     sourceHandle: b
     target: Bz-uux-pak74ee24gOVXt
@@ -351,16 +361,6 @@ edges:
     target: Bz-uux-pak74ee24gOVXt
     targetHandle: t
     id: D3XVQT
-  - source: 1yDzfNXjkxOUtiNtoDlqi
-    sourceHandle: b
-    target: zTEmB0W8O57KYllI9C0o5
-    targetHandle: t
-    id: n_U8y1
-  - source: OY0cfGccXG7_kHVIjSLqm
-    sourceHandle: r
-    target: MCuJ0MLTJBwRUsXSnpiIl
-    targetHandle: t
-    id: E5EzKe
   - source: 0o70Lfmp1aoci_QXHFyp2
     sourceHandle: b
     target: 1yDzfNXjkxOUtiNtoDlqi
