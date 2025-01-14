@@ -29,13 +29,13 @@ nodes:
       prompt: ''
       outputType: overwrite
       outputToCanvas: false
-      useUserQuery: false
+      useUserQuery: true
       apiKey: OPENAI_API_KEY
-      engineName: openai-gpt
-      modelName: gpt-4o
+      engineName: ollama
+      modelName: qwen2.5-coder
     width: 212
     height: 466
-    selected: false
+    selected: true
     positionAbsolute:
       x: 489.8252828717315
       'y': -1200.3971378488775
