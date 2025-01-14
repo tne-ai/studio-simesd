@@ -1,0 +1,6 @@
+Read all of the "Attribute description" sheet of Zalando data using the Value column as the key. 
+Fill in a copy of sheet1 of Zalando data using the Product Data supplied. 
+Fill in all of the columns. 
+Match the columns as best you can. 
+Calculate the value of" Recycled Content % of product net weight" from the material composition. 
+If there is no match fill the field with "no data".
