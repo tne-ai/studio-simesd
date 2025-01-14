@@ -83,7 +83,7 @@ nodes:
       id: XkfQODfEnU40-TdvFaqT9
       title: New Model
       input: ''
-      slashgptManifest: esg_report.model
+      slashgptManifest: esg_data_entry.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
@@ -114,7 +114,7 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 466
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
       x: 575.4477777380407
