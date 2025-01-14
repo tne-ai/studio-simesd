@@ -2,8 +2,8 @@ nodes:
   - id: eFmCxb8l02JoLTD_espAq
     type: file
     position:
-      x: 225.52131471556595
-      'y': -1639.0538595738722
+      x: 245.52131471556595
+      'y': -1871.0538595738722
     data:
       id: eFmCxb8l02JoLTD_espAq
       title: SF-2 test Data
@@ -16,8 +16,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 225.52131471556595
-      'y': -1639.0538595738722
+      x: 245.52131471556595
+      'y': -1871.0538595738722
   - id: OY0cfGccXG7_kHVIjSLqm
     type: code_generation
     position:
@@ -43,8 +43,8 @@ nodes:
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1710.1455469554019
-      'y': -359.11681673145375
+      x: 1374.1455469554019
+      'y': -1187.1168167314538
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -83,13 +83,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1710.1455469554019
-      'y': -359.11681673145375
+      x: 1374.1455469554019
+      'y': -1187.1168167314538
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
-      x: 1967.6672240642386
-      'y': -1380.273280472144
+      x: 2305.6672240642383
+      'y': -1636.273280472144
     data:
       id: gK_ROiI4UHrp_vIPGCogg
       title: Boozt Rules
@@ -119,16 +119,16 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 226
-    selected: false
+    selected: true
     dragging: false
     positionAbsolute:
-      x: 1967.6672240642386
-      'y': -1380.273280472144
+      x: 2305.6672240642383
+      'y': -1636.273280472144
   - id: _USZ7H_P8Y2Se489vFciL
     type: out
     position:
-      x: 1318.636998726558
-      'y': 982.8270730285055
+      x: 1384.6369987265577
+      'y': -317.17292697149446
     data:
       id: _USZ7H_P8Y2Se489vFciL
       title: Saved output
@@ -137,14 +137,14 @@ nodes:
     height: 190
     selected: false
     positionAbsolute:
-      x: 1318.636998726558
-      'y': 982.8270730285055
+      x: 1384.6369987265577
+      'y': -317.17292697149446
     dragging: false
   - id: Jlh7mgK5sJ2Ba8K0kiXJy
     type: file
     position:
-      x: 1888.8759236402443
-      'y': -894.0060088689941
+      x: 1454.8759236402443
+      'y': -1712.006008868994
     data:
       id: Jlh7mgK5sJ2Ba8K0kiXJy
       title: Report Rules
@@ -176,14 +176,14 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 1888.8759236402443
-      'y': -894.0060088689941
+      x: 1454.8759236402443
+      'y': -1712.006008868994
     dragging: false
   - id: 6OMemqMbC262DbFpMYaj0
     type: out
     position:
-      x: 859.7104141906921
-      'y': 741.1972901066683
+      x: 2223.710414190692
+      'y': -1976.8027098933317
     data:
       id: 6OMemqMbC262DbFpMYaj0
       title: Boozt-Test.xlsx
@@ -192,14 +192,14 @@ nodes:
     height: 190
     selected: false
     positionAbsolute:
-      x: 859.7104141906921
-      'y': 741.1972901066683
+      x: 2223.710414190692
+      'y': -1976.8027098933317
     dragging: false
   - id: 0o70Lfmp1aoci_QXHFyp2
     type: file
     position:
-      x: 904.3472837215397
-      'y': -1842.8967338698544
+      x: 1840.3472837215397
+      'y': -1990.8967338698544
     data:
       id: 0o70Lfmp1aoci_QXHFyp2
       title: BOOZT_TEMPLATE_textiles and Leather
@@ -233,77 +233,14 @@ nodes:
     height: 346
     selected: false
     positionAbsolute:
-      x: 904.3472837215397
-      'y': -1842.8967338698544
-    dragging: false
-  - id: 1yDzfNXjkxOUtiNtoDlqi
-    type: code_generation
-    position:
-      x: 1208.58957068187
-      'y': -1422.235750624545
-    data:
-      id: 1yDzfNXjkxOUtiNtoDlqi
-      title: Generate Code
-      prompt: ''
-      outputType: overwrite
-      outputToCanvas: false
-      useUserQuery: false
-      apiKey: OPENAI_API_KEY
-      engineName: openai-gpt
-      modelName: gpt-4o
-    width: 212
-    height: 466
-    selected: false
-    positionAbsolute:
-      x: 1208.58957068187
-      'y': -1422.235750624545
-    dragging: false
-  - id: zTEmB0W8O57KYllI9C0o5
-    type: python_code
-    position:
-      x: 1532.7574590416616
-      'y': -1319.8054715240241
-    data:
-      id: zTEmB0W8O57KYllI9C0o5
-      title: New Code
-      module: chat_markdown.py
-      outputType: overwrite
-      outputToCanvas: false
-      flowState:
-        backend: git
-        repo: studio-simesd
-        content:
-          name: xl-import
-          path: Experts/xl-import
-          sha: e6be6806ca7c01e88635355a4eb136b7d9d172fe
-          size: 9668
-          url: >-
-            https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
-          html_url: https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
-          git_url: >-
-            https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/e6be6806ca7c01e88635355a4eb136b7d9d172fe
-          download_url: >-
-            https://raw.githubusercontent.com/tne-ai/studio-simesd/main/Experts/xl-import
-          type: file
-          _links:
-            self: >-
-              https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
-            git: >-
-              https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/e6be6806ca7c01e88635355a4eb136b7d9d172fe
-            html: >-
-              https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
-    width: 210
-    height: 348
-    selected: true
-    positionAbsolute:
-      x: 1532.7574590416616
-      'y': -1319.8054715240241
+      x: 1840.3472837215397
+      'y': -1990.8967338698544
     dragging: false
   - id: MCuJ0MLTJBwRUsXSnpiIl
     type: python_code
     position:
-      x: 853.2042859259673
-      'y': -1142.5172444799477
+      x: 917.2042859259673
+      'y': -1170.5172444799477
     data:
       id: MCuJ0MLTJBwRUsXSnpiIl
       title: New Code
@@ -337,35 +274,64 @@ nodes:
     height: 348
     selected: false
     positionAbsolute:
-      x: 853.2042859259673
-      'y': -1142.5172444799477
+      x: 917.2042859259673
+      'y': -1170.5172444799477
+    dragging: false
+  - id: OPSrr24cIzV8zDAWr19Iz
+    type: file
+    position:
+      x: 645.9331924162843
+      'y': -1914.741507295717
+    data:
+      id: OPSrr24cIzV8zDAWr19Iz
+      title: Data
+      fileName: SF2-Zalando data.xlsx
+      flowState:
+        backend: git
+        repo: studio-simesd
+        content:
+          name: xl-import
+          path: Experts/xl-import
+          sha: a4392beb47af2088bd74ef19e82f44ee0de4644e
+          size: 12311
+          url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
+          html_url: https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
+          git_url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/a4392beb47af2088bd74ef19e82f44ee0de4644e
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/studio-simesd/main/Experts/xl-import
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/a4392beb47af2088bd74ef19e82f44ee0de4644e
+            html: >-
+              https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
+    width: 210
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 645.9331924162843
+      'y': -1914.741507295717
     dragging: false
 edges:
-  - source: 1yDzfNXjkxOUtiNtoDlqi
+  - source: MCuJ0MLTJBwRUsXSnpiIl
     sourceHandle: r
-    target: zTEmB0W8O57KYllI9C0o5
+    target: Bz-uux-pak74ee24gOVXt
     targetHandle: l
-    id: 8T0G8I
+    id: V2fJ7P
+  - source: OPSrr24cIzV8zDAWr19Iz
+    sourceHandle: b
+    target: OY0cfGccXG7_kHVIjSLqm
+    targetHandle: t
+    id: 8eZkLe
   - source: OY0cfGccXG7_kHVIjSLqm
     sourceHandle: r
     target: MCuJ0MLTJBwRUsXSnpiIl
     targetHandle: l
     id: nOS4yU
-  - source: MCuJ0MLTJBwRUsXSnpiIl
-    sourceHandle: b
-    target: Bz-uux-pak74ee24gOVXt
-    targetHandle: t
-    id: 2TnlkA
-  - source: zTEmB0W8O57KYllI9C0o5
-    sourceHandle: b
-    target: Bz-uux-pak74ee24gOVXt
-    targetHandle: t
-    id: D3XVQT
-  - source: 0o70Lfmp1aoci_QXHFyp2
-    sourceHandle: b
-    target: 1yDzfNXjkxOUtiNtoDlqi
-    targetHandle: t
-    id: elqoZg
   - source: Jlh7mgK5sJ2Ba8K0kiXJy
     sourceHandle: b
     target: Bz-uux-pak74ee24gOVXt
