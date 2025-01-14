@@ -119,7 +119,7 @@ nodes:
               https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
     width: 210
     height: 226
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
       x: 2305.6672240642383
@@ -143,8 +143,8 @@ nodes:
   - id: Jlh7mgK5sJ2Ba8K0kiXJy
     type: file
     position:
-      x: 1454.8759236402443
-      'y': -1712.006008868994
+      x: 2010.8759236402443
+      'y': -1410.006008868994
     data:
       id: Jlh7mgK5sJ2Ba8K0kiXJy
       title: Report Rules
@@ -176,8 +176,8 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 1454.8759236402443
-      'y': -1712.006008868994
+      x: 2010.8759236402443
+      'y': -1410.006008868994
     dragging: false
   - id: 6OMemqMbC262DbFpMYaj0
     type: out
@@ -286,7 +286,7 @@ nodes:
       id: OPSrr24cIzV8zDAWr19Iz
       title: Data
       fileName: SF2-Zalando data.xlsx
-      flowState:
+      flowState: &ref_0
         backend: git
         repo: studio-simesd
         content:
@@ -316,7 +316,29 @@ nodes:
       x: 645.9331924162843
       'y': -1914.741507295717
     dragging: false
+  - id: Rke4XNUuNMKp4ftZDowx7
+    type: file
+    position:
+      x: 995.9331924162843
+      'y': -1888.741507295717
+    data:
+      id: Rke4XNUuNMKp4ftZDowx7
+      title: Zalando Rules
+      fileName: zalando_rules.txt
+      flowState: *ref_0
+    width: 210
+    height: 226
+    selected: true
+    positionAbsolute:
+      x: 995.9331924162843
+      'y': -1888.741507295717
+    dragging: false
 edges:
+  - source: Rke4XNUuNMKp4ftZDowx7
+    sourceHandle: b
+    target: MCuJ0MLTJBwRUsXSnpiIl
+    targetHandle: t
+    id: ci1gVH
   - source: MCuJ0MLTJBwRUsXSnpiIl
     sourceHandle: r
     target: Bz-uux-pak74ee24gOVXt
@@ -332,11 +354,6 @@ edges:
     target: MCuJ0MLTJBwRUsXSnpiIl
     targetHandle: l
     id: nOS4yU
-  - source: Jlh7mgK5sJ2Ba8K0kiXJy
-    sourceHandle: b
-    target: Bz-uux-pak74ee24gOVXt
-    targetHandle: t
-    id: GsIU5P
   - source: Bz-uux-pak74ee24gOVXt
     sourceHandle: b
     target: _USZ7H_P8Y2Se489vFciL
