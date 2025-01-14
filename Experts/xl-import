@@ -43,8 +43,8 @@ nodes:
   - id: Bz-uux-pak74ee24gOVXt
     type: llm
     position:
-      x: 1374.1455469554019
-      'y': -1187.1168167314538
+      x: 1350.1455469554019
+      'y': -1229.1168167314538
     data:
       id: Bz-uux-pak74ee24gOVXt
       title: Summary
@@ -83,8 +83,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1374.1455469554019
-      'y': -1187.1168167314538
+      x: 1350.1455469554019
+      'y': -1229.1168167314538
   - id: gK_ROiI4UHrp_vIPGCogg
     type: file
     position:
