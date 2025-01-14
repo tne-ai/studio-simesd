@@ -2,8 +2,8 @@ nodes:
   - id: eFmCxb8l02JoLTD_espAq
     type: file
     position:
-      x: 245.52131471556595
-      'y': -1871.0538595738722
+      x: 149.7467629252959
+      'y': -1836.5122179445943
     data:
       id: eFmCxb8l02JoLTD_espAq
       title: SF-2 test Data
@@ -16,8 +16,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 245.52131471556595
-      'y': -1871.0538595738722
+      x: 149.7467629252959
+      'y': -1836.5122179445943
   - id: OY0cfGccXG7_kHVIjSLqm
     type: code_generation
     position:
@@ -29,77 +29,16 @@ nodes:
       prompt: ''
       outputType: overwrite
       outputToCanvas: false
-      useUserQuery: true
+      useUserQuery: false
       apiKey: OPENAI_API_KEY
       engineName: ollama
       modelName: qwen2.5-coder
     width: 212
     height: 466
-    selected: true
+    selected: false
     positionAbsolute:
       x: 574.6093123254132
       'y': -1450.0390023513844
-    dragging: false
-  - id: Bz-uux-pak74ee24gOVXt
-    type: llm
-    position:
-      x: 1279.492189077334
-      'y': -1481.8988304729862
-    data:
-      id: Bz-uux-pak74ee24gOVXt
-      title: Summary
-      input: ''
-      slashgptManifest: summariser.model
-      toolJson: ''
-      toolCode: ''
-      outputType: overwrite
-      outputToCanvas: false
-      useUserQuery: false
-      flowState:
-        backend: git
-        repo: studio-simesd
-        content:
-          name: xl-import
-          path: Experts/xl-import
-          sha: 1af7a962241053a1eb7eafee9db48905f6148d7d
-          size: 1651
-          url: >-
-            https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
-          html_url: https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
-          git_url: >-
-            https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/1af7a962241053a1eb7eafee9db48905f6148d7d
-          download_url: >-
-            https://raw.githubusercontent.com/tne-ai/studio-simesd/main/Experts/xl-import
-          type: file
-          _links:
-            self: >-
-              https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
-            git: >-
-              https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/1af7a962241053a1eb7eafee9db48905f6148d7d
-            html: >-
-              https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
-    width: 210
-    height: 466
-    selected: false
-    dragging: false
-    positionAbsolute:
-      x: 1279.492189077334
-      'y': -1481.8988304729862
-  - id: _USZ7H_P8Y2Se489vFciL
-    type: out
-    position:
-      x: 1317.1237900875149
-      'y': -807.0362082594329
-    data:
-      id: _USZ7H_P8Y2Se489vFciL
-      title: Saved output
-      outputName: xlfiller.md
-    width: 210
-    height: 190
-    selected: false
-    positionAbsolute:
-      x: 1317.1237900875149
-      'y': -807.0362082594329
     dragging: false
   - id: MCuJ0MLTJBwRUsXSnpiIl
     type: python_code
@@ -145,8 +84,8 @@ nodes:
   - id: OPSrr24cIzV8zDAWr19Iz
     type: file
     position:
-      x: 645.9331924162843
-      'y': -1914.741507295717
+      x: 514.046924377224
+      'y': -1943.0028504469442
     data:
       id: OPSrr24cIzV8zDAWr19Iz
       title: Data
@@ -178,14 +117,14 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 645.9331924162843
-      'y': -1914.741507295717
+      x: 514.046924377224
+      'y': -1943.0028504469442
     dragging: false
   - id: Rke4XNUuNMKp4ftZDowx7
     type: file
     position:
-      x: 1083.9331924162843
-      'y': -1952.741507295717
+      x: 853.1322233479289
+      'y': -1949.6013580566917
     data:
       id: Rke4XNUuNMKp4ftZDowx7
       title: Zalando Rules
@@ -195,8 +134,8 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 1083.9331924162843
-      'y': -1952.741507295717
+      x: 853.1322233479289
+      'y': -1949.6013580566917
     dragging: false
 edges:
   - source: Rke4XNUuNMKp4ftZDowx7
@@ -204,11 +143,6 @@ edges:
     target: OY0cfGccXG7_kHVIjSLqm
     targetHandle: t
     id: GFWyau
-  - source: MCuJ0MLTJBwRUsXSnpiIl
-    sourceHandle: r
-    target: Bz-uux-pak74ee24gOVXt
-    targetHandle: l
-    id: V2fJ7P
   - source: OPSrr24cIzV8zDAWr19Iz
     sourceHandle: b
     target: OY0cfGccXG7_kHVIjSLqm
@@ -219,11 +153,6 @@ edges:
     target: MCuJ0MLTJBwRUsXSnpiIl
     targetHandle: l
     id: nOS4yU
-  - source: Bz-uux-pak74ee24gOVXt
-    sourceHandle: b
-    target: _USZ7H_P8Y2Se489vFciL
-    targetHandle: t
-    id: ZJ_O6j
   - source: eFmCxb8l02JoLTD_espAq
     sourceHandle: b
     target: OY0cfGccXG7_kHVIjSLqm
