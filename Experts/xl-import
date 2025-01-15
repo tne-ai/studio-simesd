@@ -2,8 +2,8 @@ nodes:
   - id: eFmCxb8l02JoLTD_espAq
     type: file
     position:
-      x: 149.7467629252959
-      'y': -1836.5122179445943
+      x: 245.52131471556595
+      'y': -1871.0538595738722
     data:
       id: eFmCxb8l02JoLTD_espAq
       title: SF-2 test Data
@@ -16,13 +16,137 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 149.7467629252959
-      'y': -1836.5122179445943
+      x: 245.52131471556595
+      'y': -1871.0538595738722
+  - id: OY0cfGccXG7_kHVIjSLqm
+    type: code_generation
+    position:
+      x: 489.8252828717315
+      'y': -1200.3971378488775
+    data:
+      id: OY0cfGccXG7_kHVIjSLqm
+      title: Generate Code
+      prompt: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: true
+      apiKey: OPENAI_API_KEY
+      engineName: ollama
+      modelName: qwen2.5-coder
+    width: 212
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 489.8252828717315
+      'y': -1200.3971378488775
+    dragging: false
+  - id: Bz-uux-pak74ee24gOVXt
+    type: llm
+    position:
+      x: 1350.1455469554019
+      'y': -1229.1168167314538
+    data:
+      id: Bz-uux-pak74ee24gOVXt
+      title: Summary
+      input: ''
+      slashgptManifest: summariser.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState:
+        backend: git
+        repo: studio-simesd
+        content:
+          name: xl-import
+          path: Experts/xl-import
+          sha: 1af7a962241053a1eb7eafee9db48905f6148d7d
+          size: 1651
+          url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
+          html_url: https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
+          git_url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/1af7a962241053a1eb7eafee9db48905f6148d7d
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/studio-simesd/main/Experts/xl-import
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/1af7a962241053a1eb7eafee9db48905f6148d7d
+            html: >-
+              https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
+    width: 210
+    height: 466
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 1350.1455469554019
+      'y': -1229.1168167314538
+  - id: _USZ7H_P8Y2Se489vFciL
+    type: out
+    position:
+      x: 1384.6369987265577
+      'y': -317.17292697149446
+    data:
+      id: _USZ7H_P8Y2Se489vFciL
+      title: Saved output
+      outputName: xlfiller.md
+    width: 210
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 1384.6369987265577
+      'y': -317.17292697149446
+    dragging: false
+  - id: MCuJ0MLTJBwRUsXSnpiIl
+    type: python_code
+    position:
+      x: 917.2042859259673
+      'y': -1170.5172444799477
+    data:
+      id: MCuJ0MLTJBwRUsXSnpiIl
+      title: New Code
+      module: chat_markdown.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState:
+        backend: git
+        repo: studio-simesd
+        content:
+          name: xl-import
+          path: Experts/xl-import
+          sha: 756f9adcaac4b2b4932cb61e83c398349db7de41
+          size: 10822
+          url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
+          html_url: https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
+          git_url: >-
+            https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/756f9adcaac4b2b4932cb61e83c398349db7de41
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/studio-simesd/main/Experts/xl-import
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/756f9adcaac4b2b4932cb61e83c398349db7de41
+            html: >-
+              https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
+    width: 210
+    height: 348
+    selected: false
+    positionAbsolute:
+      x: 917.2042859259673
+      'y': -1170.5172444799477
+    dragging: false
   - id: OPSrr24cIzV8zDAWr19Iz
     type: file
     position:
-      x: 514.046924377224
-      'y': -1943.0028504469442
+      x: 645.9331924162843
+      'y': -1914.741507295717
     data:
       id: OPSrr24cIzV8zDAWr19Iz
       title: Data
@@ -54,14 +178,14 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 514.046924377224
-      'y': -1943.0028504469442
+      x: 645.9331924162843
+      'y': -1914.741507295717
     dragging: false
   - id: Rke4XNUuNMKp4ftZDowx7
     type: file
     position:
-      x: 853.1322233479289
-      'y': -1949.6013580566917
+      x: 1083.9331924162843
+      'y': -1952.741507295717
     data:
       id: Rke4XNUuNMKp4ftZDowx7
       title: Zalando Rules
@@ -71,68 +195,38 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 853.1322233479289
-      'y': -1949.6013580566917
+      x: 1083.9331924162843
+      'y': -1952.741507295717
     dragging: false
-  - id: XkfQODfEnU40-TdvFaqT9
-    type: llm
-    position:
-      x: 575.4477777380407
-      'y': -1490.7648922611681
-    data:
-      id: XkfQODfEnU40-TdvFaqT9
-      title: New Model
-      input: ''
-      slashgptManifest: esg_data_entry.model
-      toolJson: ''
-      toolCode: ''
-      outputType: overwrite
-      outputToCanvas: false
-      useUserQuery: false
-      flowState:
-        backend: git
-        repo: studio-simesd
-        content:
-          name: xl-import
-          path: Experts/xl-import
-          sha: 3df79b620c63f1d1db3f5954be9b0ae64a43c9de
-          size: 7047
-          url: >-
-            https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
-          html_url: https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
-          git_url: >-
-            https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/3df79b620c63f1d1db3f5954be9b0ae64a43c9de
-          download_url: >-
-            https://raw.githubusercontent.com/tne-ai/studio-simesd/main/Experts/xl-import
-          type: file
-          _links:
-            self: >-
-              https://api.github.com/repos/tne-ai/studio-simesd/contents/Experts/xl-import?ref=main
-            git: >-
-              https://api.github.com/repos/tne-ai/studio-simesd/git/blobs/3df79b620c63f1d1db3f5954be9b0ae64a43c9de
-            html: >-
-              https://github.com/tne-ai/studio-simesd/blob/main/Experts/xl-import
-    width: 210
-    height: 466
-    selected: false
-    dragging: false
-    positionAbsolute:
-      x: 575.4477777380407
-      'y': -1490.7648922611681
 edges:
   - source: Rke4XNUuNMKp4ftZDowx7
     sourceHandle: b
-    target: XkfQODfEnU40-TdvFaqT9
+    target: OY0cfGccXG7_kHVIjSLqm
     targetHandle: t
-    id: lP-ZKu
+    id: GFWyau
+  - source: MCuJ0MLTJBwRUsXSnpiIl
+    sourceHandle: r
+    target: Bz-uux-pak74ee24gOVXt
+    targetHandle: l
+    id: V2fJ7P
   - source: OPSrr24cIzV8zDAWr19Iz
     sourceHandle: b
-    target: XkfQODfEnU40-TdvFaqT9
+    target: OY0cfGccXG7_kHVIjSLqm
     targetHandle: t
-    id: xtpb3f
+    id: 8eZkLe
+  - source: OY0cfGccXG7_kHVIjSLqm
+    sourceHandle: r
+    target: MCuJ0MLTJBwRUsXSnpiIl
+    targetHandle: l
+    id: nOS4yU
+  - source: Bz-uux-pak74ee24gOVXt
+    sourceHandle: b
+    target: _USZ7H_P8Y2Se489vFciL
+    targetHandle: t
+    id: ZJ_O6j
   - source: eFmCxb8l02JoLTD_espAq
     sourceHandle: b
-    target: XkfQODfEnU40-TdvFaqT9
+    target: OY0cfGccXG7_kHVIjSLqm
     targetHandle: t
-    id: 84ShCp
+    id: il4Q21
 description: null
